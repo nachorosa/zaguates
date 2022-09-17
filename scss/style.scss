@@ -5,20 +5,21 @@
 }
 /* Bases */
 
-@import '../base/extends';
-@import '../base/listas';
-@import '../base/mapa';
-@import '../base/mixin';
-@import '../base/operaciones';
-@import '../base/variables';
+@import './base/extends';
+@import './base/listas';
+@import './base/mapa';
+@import './base/mixin';
+@import './base/operaciones';
+@import './base/variables';
+
 
 /* Componentes */
 
-@import '../scss/components/header';
-@import '../scss/components/main';
-@import '../scss/components/fuentes';
-@import '../scss/components/footer';
+@import './components/header';
+@import './components/main';
+@import './components/fuentes';
+@import './components/footer';
 
 /* querys */
-@import '../base/querys';
+@import './base/querys';
 

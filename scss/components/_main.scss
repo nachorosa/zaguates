@@ -1,5 +1,10 @@
 /* lading page*/
 //section portada
+$color1: #CFE3E1;
+$color2: #FFE1E1;
+$color3: #FFFDE9;
+$color4: #A17A9B;
+$color5: #262626;
 
 .main__portada{
     background: no-repeat center/100% url('../multimedia/img/portada/portadaDesk.png');
@@ -14,3 +19,177 @@
         text-shadow: rgba(0, 0, 0, 0.192) 1px 1px;
     }
 }
+
+// banner
+
+.banner {
+    background-image: url("../img/banner/portadaDesk.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 776px;
+    width: 100%;
+  }
+
+  .banner-texto {
+    padding-top: 5%;
+    padding-left: 15%;
+    color: white;
+    width: 50%;
+   
+  }
+  .banner-texto h1 {
+    font-weight: bolder;
+    margin-bottom: 5%;
+    font-size: 36px;
+    
+  }
+  .banner-texto h2 {
+    font-weight: bolder;
+    margin-bottom: 5%;
+    font-size: 64px;
+    
+  }
+
+// nosotros
+
+.nosotros {
+  background-color: white;
+  height: 824px;
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: 1fr ;
+  grid-template-columns: 1fr 1fr;
+  align-items:center;
+  
+ 
+&-texto{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid 3px white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+    text-align: left;
+    height: 450px;
+
+    & h2{
+      color: $color4;
+      font-family: Poppins;
+      font-size: 64px;
+      font-weight: 800;
+      line-height: 44px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      
+  }
+
+  & p{
+    color: $color5;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+    
+}
+}
+}
+
+
+
+
+// ig feed
+
+.igfeed {
+  background-color: $color1;
+  height: 952px;
+  width: 100%;
+}
+
+
+// adoptar
+
+.adoptar {
+  background-color: $color2;
+  height: 688px;
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: 1fr ;
+  grid-template-columns: 1fr 1fr;
+  align-items:center;
+  
+ 
+&-texto{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid 3px white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+    text-align: left;
+    height: 450px;
+
+    & h2{
+      color: $color4;
+      font-family: Poppins;
+      font-size: 64px;
+      font-weight: 800;
+      line-height: 44px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      
+  }
+
+  & p{
+    color: $color5;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+    
+}
+}
+}
+
+
+
+
+
+
+// donar
+
+.donar {
+  background-color: $color3;
+  height: 712px;
+  width: 100%;
+}
+
+// equipo
+
+.equipo {
+  background-color: white;
+  height: 720px;
+  width: 100%;
+}
+
+// tienda
+
+.tienda {
+  background-color: rgb(102, 19, 19);
+  height: 661px;
+  width: 100%;
+}
+
