@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Bases */
+/* Componentes */
+/* navbar */
+.navbar {
+  padding: 32px, 124px, 32px, 124px;
+  background-color: #8BABA8;
+  box-shadow: 1px 2px 5px rgba(65, 65, 65, 0.4431372549), -10px -10px 5px #faf8f8;
+}
+.navbar a {
+  color: white;
+  font-weight: 500;
+}
+.navbar .navbar-toggler {
+  border: 1px;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
+}
+.navbar .navbar-toggler-icon {
+  width: 1.8em;
+}
+.navbar ul {
+  letter-spacing: 0.5px;
+}
+.navbar ul .nav-link {
+  display: table-cell;
+  position: relative;
+  padding: 5px;
+}
+.navbar ul .nav-link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  right: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, right 0.3s ease 0s;
+  width: 0;
+}
+.navbar ul .nav-link:hover:after {
+  width: 100%;
+  right: 0;
+}
+.navbar ul .dropdown-menu {
+  margin-top: -0.18rem;
+  background-color: #8BABA8;
+}
+.navbar ul .dropdown-item {
+  background-color: #8BABA8;
+}
+.navbar ul .dropdown-toggle:after {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+}
+.navbar .hover__effect {
+  background-color: rgba(240, 235, 229, 0);
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  transform: scale(1, 1);
+}
+.navbar .hover__effect:hover {
+  background: rgba(255, 255, 255, 0.281);
+  box-shadow: 0 3px 3px 0 rgba(0, 1, 2, 0.137);
+  border-radius: 100%;
+  transform: scale(1.07, 1.07);
+  transition: all 1.09s;
+}
+.navbar .hover__effect:active {
+  transform: scale(0.99, 0.99);
+  filter: contrast(90%);
+  transition: all;
+}
+
+/* Fin navbar */
+/* lading page*/
+.main__portada {
+  background: no-repeat center/100% url("../multimedia/img/portada/portadaDesk.png");
+}
+.main__portada .display-4 {
+  left: 16px;
+  top: 344px;
+  border-radius: 0px;
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.192) 1px 1px;
+}
+
+.banner {
+  background-image: url("../img/banner/portadaDesk.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 776px;
+  width: 100%;
+}
+
+.banner-texto {
+  padding-top: 5%;
+  padding-left: 15%;
+  color: white;
+  width: 50%;
+}
+
+.banner-texto h1 {
+  font-weight: bolder;
+  margin-bottom: 5%;
+  font-size: 36px;
+}
+
+.banner-texto h2 {
+  font-weight: bolder;
+  margin-bottom: 5%;
+  font-size: 64px;
+}
+
+.nosotros {
+  background-color: white;
+  height: 824px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.nosotros-texto {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: solid 3px white;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5%;
+  text-align: left;
+  height: 450px;
+}
+.nosotros-texto h2 {
+  color: #A17A9B;
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.nosotros-texto p {
+  color: #262626;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.igfeed {
+  background-color: #CFE3E1;
+  height: 952px;
+  width: 100%;
+}
+
+.adoptar {
+  background-color: #FFE1E1;
+  height: 688px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.adoptar-texto {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: solid 3px white;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5%;
+  text-align: left;
+  height: 450px;
+}
+.adoptar-texto h2 {
+  color: #A17A9B;
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.adoptar-texto p {
+  color: #262626;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.donar {
+  background-color: #FFFDE9;
+  height: 712px;
+  width: 100%;
+}
+
+.equipo {
+  background-color: white;
+  height: 720px;
+  width: 100%;
+}
+
+.tienda {
+  background-color: rgb(102, 19, 19);
+  height: 661px;
+  width: 100%;
+}
+
+.footer {
+  height: 171px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  background-color: #262626;
+  color: white;
+}
+.footer .footer_texto {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.footer .footer_redes_img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.footer .footer_redes_img .iconoFooter {
+  margin: 8px;
+}
+
+/* querys */
+@media screen and (min-width: 320px) and (max-width: 960px) {
+  .main__portada {
+    background: "../multimedia/img/portada/portadaMobile.png";
+  }
+}/*# sourceMappingURL=style.css.map */
