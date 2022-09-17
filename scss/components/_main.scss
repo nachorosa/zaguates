@@ -1,0 +1,16 @@
+/* lading page*/
+//section portada
+
+.main__portada{
+    background: no-repeat center/100% url('../multimedia/img/portada/portadaDesk.png');
+    .display-4{
+        left: 16px;
+        top: 344px;
+        border-radius: 0px;
+
+        font-weight: 900;
+        font-size: nth($fuentes, 7);
+        color: white;
+        text-shadow: rgba(0, 0, 0, 0.192) 1px 1px;
+    }
+}

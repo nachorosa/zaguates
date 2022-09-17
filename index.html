@@ -21,7 +21,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./scss/styles.css">
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
@@ -29,30 +29,58 @@
 
     <!-- NAVBAR -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid container-lg  container-sm  container-xl  container-xxl">
                 <!-- Logo del navbar -->
-                <a href="#"><img src="./img/logo.png" alt="" class="navbar_logo">
-                    <img src="./img/favicon.png" alt="" class="navbar_logo2"></a>
+                <div class="p-2">
+                    <a href="#"><img src="./multimedia/Icons/logo_2.svg" alt="logo_principal" class="navbar_logo px-4">
+                    </a>
+                </div>
+                    
+
                 <!-- Boton hamburguesa -->
                 <button class="navbar-toggler botonColapseNav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- Botones del navbar -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav navbar__boton">
-                        <li class="nav-item navbar__boton--home ">
+                <div class="collapse navbar-collapse p-2" id="navbarNav">
+                    <ul class="navbar-nav navbar__boton p-4">
+                        <li class="nav-item navbar__boton--home px-2">
                             <a class="nav-link active navbar__boton--home--ruta" aria-current="page"
-                                href="#">A</a>
+                                href="#">Nosotros</a>
                         </li>
-                        <li class="nav-item navbar__boton--home ">
-                            <a class="nav-link active navbar__boton--home--ruta" href="#">B</a>
+                        <li class="nav-item navbar__boton--home px-2">
+                            <a class="nav-link active navbar__boton--home--ruta" href="#">Adoptá</a>
                         </li>
-                        <li class="nav-item navbar__boton--home ">
-                            <a class="nav-link active nav-item navbar__boton--home--ruta" href="#">C</a>
+                        <li class="nav-item navbar__boton--home px-2">
+                            <a class="nav-link active nav-item navbar__boton--home--ruta" href="#">Voluntariado</a>
+                        </li>
+                        <li class="nav-item navbar__boton--home px-2">
+                            <a class="nav-link active navbar__boton--home--ruta" aria-current="page"
+                                href="#">Tienda</a>
+                        </li>
+                        <li class="nav-item navbar__boton--home px-2">
+                            <a class="nav-link active navbar__boton--home--ruta" aria-current="page"
+                                href="#">Donaciones</a>
+                        </li>
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"aria-expanded="false">
+                                Información
+                            </a>
+                                <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Salud</a></li>
+                                    <li><a class="dropdown-item" href="#">Educacion</a></li>
+                                    <li><a class="dropdown-item" href="#">Maltrato</a></li>
+                                    <li><a class="dropdown-item" href="#">Castraciones</a></li>
+                                </ul>
                         </li>
                     </ul>
+                    <div class="mx-4 ">
+                        <a href="#"><img src="./multimedia/Icons/gmail.svg" alt="instagram" class="hover__effect"></a>
+                        <a href="#"><img src="./multimedia/Icons/facebook.svg" alt="facebook"  class="hover__effect"></a>
+                        <a href="#"><img src="./multimedia/Icons/instagram.svg" alt="gmail" class="hover__effect"></a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -61,29 +89,34 @@
 
     <!-- MAIN -->
     <main>
-
+        <section id="portadaHome" class="main__portada p-4 p-md-5 mb-4 rounded">
+            <div class="col-md-6 px-0">
+                <h1 data-aos="fade-right" class="display-4">¿NO RESULTA RARO COMPRAR AMOR?</h1>
+                <p data-aos="fade-left"  class="lead my-3 display-4">COMPRAR FOMENTA EL MALTRATO, ADOPTAR SALVA VIDAS</p>
+            </div>
+            
+        </section>
     </main>
 
     <!-- FOOTER -->
     <footer class="footer">
 
         <div>
-            <a href="#"><img src="./img/Group 39.png" alt="logo" class="footer_logo"></a>
+            <a href="#"><img src="./multimedia/Icons/logo.svg" alt="logo" class="footer_logo"></a>
 
         </div>
 
         <div class="footer_texto">
-            <p>REFUGIO ZAGUATES | 2ss022</p>
+            <p>REFUGIO ZAGUATES | 2022</p>
         </div>
 
         <div class="footer_redes_img">
-                <a href="malito:info.zaguates@gmail.com" target="_blank"><img src="./img/mail.png" alt="icono de mail" class="iconoFooter"></a>
-                <a href="https://www.facebook.com/zaguates.refugio/" target="_blank"><img src="./img/fb.png" alt="icono de facebook" class="iconoFooter"></a>
-                <a href="https://www.instagram.com/zaguatesrefugio" target="_blank"><img src="./img/ig.png" alt="icono de instagram" class="iconoFooter" ></a>
+                <a href="malito:info.zaguates@gmail.com" target="_blank"><img src="./multimedia/Icons/gmail.svg" alt="icono de mail" class="iconoFooter"></a>
+                <a href="https://www.facebook.com/zaguates.refugio/" target="_blank"><img src="./multimedia/Icons/facebook.svg" alt="icono de facebook" class="iconoFooter"></a>
+                <a href="https://www.instagram.com/zaguatesrefugio" target="_blank"><img src="./multimedia/Icons/instagram.svg" alt="icono de instagram" class="iconoFooter" ></a>
         </div>
 
     </footer>
-
 
 
     <!-- Link JS Bootstrap -->

@@ -1,0 +1,87 @@
+
+/* navbar */
+
+.navbar{
+    padding: 32px, 124px, 32px, 124px;
+    background-color: $bg-color-header;
+    box-shadow:1px 2px 5px #41414171,
+    -10px -10px 5px #faf8f8;
+    a{    
+        color: nth($colores, 9);
+        font-weight: 500;
+    }
+    .navbar-toggler{
+        border: 1px;
+        &:focus{
+            box-shadow: 0 0 0 0;
+        }
+    }
+    .navbar-toggler-icon{
+        width: 1.8em;
+    }
+    ul{
+        
+        letter-spacing: .5px;
+        .nav-link {
+            display: table-cell;
+            position: relative;
+            padding: 5px;
+            &:after{
+                background: none repeat scroll 0 0 transparent;
+                bottom: 0;
+                content: "";
+                display: block;
+                height: 2px;
+                right: 50%;
+                position: absolute;
+                background: #fff;
+                transition: width 0.3s ease 0s, right 0.3s ease 0s;
+                width: 0;
+            }
+            &:hover:after{
+                width: 100%;
+                right: 0;
+            }
+          }
+          .dropdown-menu{
+            margin-top: -0.18rem;
+            background-color: $bg-color-header;
+            
+          }
+          .dropdown-item{
+            
+            background-color: $bg-color-header;
+        }
+          .dropdown-toggle{
+            &:after{
+                border-top: none;
+                border-right: none;
+                border-bottom: none;
+                border-left: none;
+            }
+          }
+    }
+    //Redes Sociales
+    .hover__effect{
+        background-color: #f0ebe500;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+
+        transform: scale(1,1);
+        &:hover{
+            background: rgba(255, 255, 255, 0.281);
+            box-shadow: 0 3px 3px 0 rgba(0, 1, 2, 0.137);
+            border-radius: 100%;
+            transform: scale(1.07,1.07);
+            transition: all 1.09s;
+        }
+        &:active{
+            transform: scale(.99,.99);
+            filter: contrast(90%);
+            transition: all;
+        }
+    }
+    
+}
+/* Fin navbar */
