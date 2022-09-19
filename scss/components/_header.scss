@@ -1,15 +1,21 @@
 
 /* navbar */
-
+.navbar-dark{
+    .navbar-nav{
+        .nav-link.active{
+            color: nth($colores, 9);
+            &:hover{
+                color: #dbdbda;
+                transition: all .5s;
+            }
+        }
+    }
+}
 .navbar{
     padding: 32px, 124px, 32px, 124px;
     background-color: $bg-color-header;
     box-shadow:1px 2px 5px #41414171,
     -10px -10px 5px #faf8f8;
-    a{    
-        color: nth($colores, 9);
-        font-weight: 500;
-    }
     .navbar-toggler{
         border: 1px;
         &:focus{
@@ -48,9 +54,16 @@
             background-color: $bg-color-header;
             
           }
-          .dropdown-item{
-            
+          .dropdown-item{            
+            color: nth($colores, 8);
             background-color: $bg-color-header;
+            
+            font-weight: 200;
+            &:hover{
+                    color: #d4d4d3;
+                    transition: all .5s;
+                
+            }
         }
           .dropdown-toggle{
             &:after{
