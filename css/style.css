@@ -80,6 +80,117 @@
     color: white;
     text-shadow: rgba(0, 0, 0, 0.192) 1px 1px; }
 
+.banner {
+  background-image: url("../img/banner/portadaDesk.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 776px;
+  width: 100%; }
+
+.banner-texto {
+  padding-top: 5%;
+  padding-left: 15%;
+  color: white;
+  width: 50%; }
+
+.banner-texto h1 {
+  font-weight: bolder;
+  margin-bottom: 5%;
+  font-size: 36px; }
+
+.banner-texto h2 {
+  font-weight: bolder;
+  margin-bottom: 5%;
+  font-size: 64px; }
+
+.nosotros {
+  background-color: white;
+  height: 824px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: center; }
+  .nosotros-texto {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid 3px white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+    text-align: left;
+    height: 450px; }
+    .nosotros-texto h2 {
+      color: #A17A9B;
+      font-family: Poppins;
+      font-size: 64px;
+      font-weight: 800;
+      line-height: 44px;
+      letter-spacing: 0em;
+      text-align: left; }
+    .nosotros-texto p {
+      color: #262626;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left; }
+
+.igfeed {
+  background-color: #CFE3E1;
+  height: 952px;
+  width: 100%; }
+
+.adoptar {
+  background-color: #FFE1E1;
+  height: 688px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: center; }
+  .adoptar-texto {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid 3px white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+    text-align: left;
+    height: 450px; }
+    .adoptar-texto h2 {
+      color: #A17A9B;
+      font-family: Poppins;
+      font-size: 64px;
+      font-weight: 800;
+      line-height: 44px;
+      letter-spacing: 0em;
+      text-align: left; }
+    .adoptar-texto p {
+      color: #262626;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left; }
+
+.donar {
+  background-color: #FFFDE9;
+  height: 712px;
+  width: 100%; }
+
+.equipo {
+  background-color: white;
+  height: 720px;
+  width: 100%; }
+
+.tienda {
+  background-color: #661313;
+  height: 661px;
+  width: 100%; }
+
 .footer {
   height: 171px !important;
   display: flex;
@@ -87,10 +198,7 @@
   justify-content: space-around;
   height: 50px;
   background-color: #262626;
-  color: white;
-  /* -ms-flex-pack: distribute;
-    -webkit-box-align: center;
-        -ms-flex-align: center; */ }
+  color: white; }
   .footer .footer_texto {
     font-family: Inter;
     font-size: 12px;
