@@ -232,5 +232,26 @@
 
 /* querys */
 @media screen and (min-width: 320px) and (max-width: 960px) {
-  .main__portada {
-    background: "../multimedia/img/portada/portadaMobile.png"; } }
+  /* Banner section */
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/banner/portadaMobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 776px;
+    width: 100%; }
+    .banner .banner-body .banner-texto h2 {
+      font-size: 50px;
+      -webkit-text-stroke: .2px black; }
+  /* Banner section END */
+  /* About us section */
+  .nosotros {
+    display: block; }
+    .nosotros .nosotros-texto {
+      text-align: center; }
+      .nosotros .nosotros-texto p {
+        text-align: center; }
+    .nosotros .nosotros-imagen {
+      display: none; } }

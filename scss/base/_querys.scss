@@ -1,6 +1,42 @@
+//versión mobile
 @media  screen and (min-width: 320px) and (max-width: 960px) {
-    .main__portada{
-        background: ('../multimedia/img/portada/portadaMobile.png');
+    /* Banner section */
+    .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-image: url(../img/banner/portadaMobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 776px;
+    width: 100%;
+    .banner-body{
         
+        .banner-texto{
+            
+            h2{
+                font-size: nth($fuentes, 7);
+                -webkit-text-stroke: .2px black;
+            }
+        }
+        }
     }
+    /* Banner section END */
+
+    //About us
+    /* About us section */
+    .nosotros{
+        display: block;
+        .nosotros-texto{
+            text-align: center;
+            p{
+                text-align: center;
+            }
+        }
+        .nosotros-imagen{
+            display: none;
+        }
+    }
+    
 }
