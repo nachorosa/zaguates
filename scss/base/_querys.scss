@@ -1,23 +1,34 @@
 //versión mobile
-@media  screen and (min-width: 320px) and (max-width: 960px) {
+@media  screen and (min-width: 320px) and (max-width: 790px) {
     /* Banner section */
     .banner{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     
     background-image: url(../img/banner/portadaMobile.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 776px;
+    background-size: cover;
     width: 100%;
+    height: 544px;
+    top: 64px;
     .banner-body{
-        
+        background: linear-gradient(#21252900,#000000);
+            height: 240px;
+            width: 100%;
+            left: 0px;
+            top: 368px;
+            border-radius: 0px;
         .banner-texto{
-            
             h2{
-                font-size: nth($fuentes, 7);
+                font-size: nth($fuentes, 5);
                 -webkit-text-stroke: .2px black;
+                height: 189px;
+                width: 272px;
+                left: 16px;
+                top: 344px;
+                gap: 16px;
+                border-radius: 0px;
             }
         }
         }
@@ -26,17 +37,66 @@
 
     //About us
     /* About us section */
-    .nosotros{
-        display: block;
-        .nosotros-texto{
-            text-align: center;
-            p{
-                text-align: center;
+        .nosotros{
+                display: block;
+                background: url('../multimedia/img/nosotros/donacionesMobile.png');
+                background-size: cover;
+                height: 424px;
+                width: 100%;
+                left: 0px;
+                top: 608px;
+                border-radius: 0px;
+
+            .nosotros-texto{
+                background: transparent;
+                height: 267.52374267578125px;
+                left: 11px;
+                top: 668px;
+                border: 0;
+                border-radius: 0;
+
+                h2{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
             }
+            .nosotros-imagen{
+                display: none;
+            }
+        }
+    /* About us END */
+    /* Adoptá */
+    .adoptar{
+        background: url('../multimedia/img/adopcionesMobile.png') no-repeat;
+        background-size: cover;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        .razones__para__adoptar{
+            display: none;
         }
         .nosotros-imagen{
             display: none;
         }
+        .adoptar-texto{
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            margin-left: 20%;
+            margin-right: 20%;
+            height: auto;
+            h2{
+                text-align: center;
+                line-height: 100%;
+            }
+            p{
+                text-align: center;
+            }
+        }
     }
-    
 }
+
