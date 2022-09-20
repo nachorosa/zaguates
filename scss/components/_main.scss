@@ -117,15 +117,21 @@ $color5: #262626;
 
 .adoptar {
   background-color: $color2;
-  height: 688px;
+  height: 880px;
   width: 100%;
+  top: 2688px;
 
-  display: grid;
+  /* display: grid;
   grid-template-rows: 1fr ;
   grid-template-columns: 1fr 1fr;
-  align-items:center;
+  align-items:center; */
   
- 
+  .nosotros-imagen{
+    display: none;
+  }
+  .adoptar-texto{
+    display: none;
+  }
 &-texto{
     
     margin-left: 10%;

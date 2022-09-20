@@ -5,6 +5,10 @@
   padding: 0;
   font-family: 'Poppins', sans-serif; }
 
+body {
+  overflow-x: hidden;
+  cursor: default; }
+
 /* Bases */
 /* Componentes */
 /* navbar */
@@ -153,12 +157,17 @@
 
 .adoptar {
   background-color: #FFE1E1;
-  height: 688px;
+  height: 880px;
   width: 100%;
-  display: grid;
-  grid-template-rows: 1fr;
+  top: 2688px;
+  /* display: grid;
+  grid-template-rows: 1fr ;
   grid-template-columns: 1fr 1fr;
-  align-items: center; }
+  align-items:center; */ }
+  .adoptar .nosotros-imagen {
+    display: none; }
+  .adoptar .adoptar-texto {
+    display: none; }
   .adoptar-texto {
     margin-left: 10%;
     margin-right: 10%;
