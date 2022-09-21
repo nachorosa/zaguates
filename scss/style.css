@@ -190,7 +190,6 @@ body {
   height: 880px;
   width: 100%;
   top: 2688px;
-<<<<<<< HEAD
   /* display: grid;
   grid-template-rows: 1fr ;
   grid-template-columns: 1fr 1fr;
@@ -232,47 +231,6 @@ body {
       line-height: 24px;
       letter-spacing: 0em;
       text-align: left; }
-=======
-  /* display: grid;
-  grid-template-rows: 1fr ;
-  grid-template-columns: 1fr 1fr;
-  align-items:center; */
-}
-.adoptar .nosotros-imagen {
-  display: none;
-}
-.adoptar .adoptar-texto {
-  display: none;
-}
-.adoptar-texto {
-  margin-left: 10%;
-  margin-right: 10%;
-  border: solid 3px white;
-  background-color: white;
-  border-radius: 10px;
-  padding: 5%;
-  text-align: left;
-  height: 450px;
-}
-.adoptar-texto h2 {
-  color: #A17A9B;
-  font-family: Poppins;
-  font-size: 64px;
-  font-weight: 800;
-  line-height: 44px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-.adoptar-texto p {
-  color: #262626;
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-}
->>>>>>> 9a10a5d0d028e40988bb4f37abc916db97beaa90
 
 .donar {
   background-color: #FFFDE9;
