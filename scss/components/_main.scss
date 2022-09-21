@@ -6,27 +6,13 @@ $color3: #FFFDE9;
 $color4: #A17A9B;
 $color5: #262626;
 
-.main__portada{
-    background: no-repeat center/100% url('../multimedia/img/portada/portadaDesk.png');
-    .display-4{
-        left: 16px;
-        top: 344px;
-        border-radius: 0px;
-
-        font-weight: 900;
-        font-size: nth($fuentes, 7);
-        color: white;
-        text-shadow: rgba(0, 0, 0, 0.192) 1px 1px;
-    }
-}
-
 // banner
 
 .banner {
     background-image: url("../img/banner/portadaDesk.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 776px;
+    background-size: cover;
+    height: 864px;
     width: 100%;
   }
 
@@ -116,15 +102,17 @@ $color5: #262626;
 // adoptar
 
 .adoptar {
+
   background-color: $color2;
   height: 880px;
   width: 100%;
   top: 2688px;
   .razones__para__adoptar{
+   
     h3{
       color: $color4;
       
-      font-size: 64px;
+      font-size: nth($fuentes, 8);
       font-weight: 800;
       //line-height: 44px;
       letter-spacing: 0em;
@@ -132,6 +120,10 @@ $color5: #262626;
       height: 122px;
       left: 159px;
       top: 2723px;
+    }
+    .involucrate{
+        font-weight: 700;
+        font-size: nth($fuentes, 5);
     }
   }
   /* display: grid;

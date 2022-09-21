@@ -40,8 +40,8 @@
         .nosotros{
                 display: block;
                 background: url('../multimedia/img/nosotros/donacionesMobile.png');
-                background-size: cover;
-                height: 424px;
+                background-size: contain;
+                height: 700px;
                 width: 100%;
                 left: 0px;
                 top: 608px;
@@ -49,7 +49,7 @@
 
             .nosotros-texto{
                 background: transparent;
-                height: 267.52374267578125px;
+                height: 267px;
                 left: 11px;
                 top: 668px;
                 border: 0;
@@ -83,6 +83,7 @@
             display: none;
         }
         .adoptar-texto{
+            z-index: 1;
             background-color: transparent;
             border: none;
             padding: 0;
