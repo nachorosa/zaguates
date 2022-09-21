@@ -164,6 +164,14 @@ body {
   grid-template-rows: 1fr ;
   grid-template-columns: 1fr 1fr;
   align-items:center; */ }
+  .adoptar .razones__para__adoptar h3 {
+    color: #A17A9B;
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    height: 122px;
+    left: 159px;
+    top: 2723px; }
   .adoptar .nosotros-imagen {
     display: none; }
   .adoptar .adoptar-texto {

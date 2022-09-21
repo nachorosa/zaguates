@@ -120,7 +120,20 @@ $color5: #262626;
   height: 880px;
   width: 100%;
   top: 2688px;
+  .razones__para__adoptar{
+    h3{
+      color: $color4;
+      
+      font-size: 64px;
+      font-weight: 800;
+      //line-height: 44px;
+      letter-spacing: 0em;
 
+      height: 122px;
+      left: 159px;
+      top: 2723px;
+    }
+  }
   /* display: grid;
   grid-template-rows: 1fr ;
   grid-template-columns: 1fr 1fr;
