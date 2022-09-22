@@ -51,8 +51,14 @@ body {
         width: 100%;
         right: 0; }
     .navbar ul .dropdown-menu {
-      margin-top: -0.18rem;
-      background-color: #8BABA8; }
+      margin-top: 0.8rem;
+      background-color: #8BABA8;
+      border-top: 0px;
+      border-bottom: 0px;
+      border-left: 0.3px solid rgba(0, 0, 0, 0);
+      border-right: 0.3px solid rgba(0, 0, 0, 0);
+      border-radius: 1px;
+      box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5); }
     .navbar ul .dropdown-item {
       color: #F0EBE5;
       background-color: #8BABA8;
@@ -299,10 +305,18 @@ body {
       margin-right: 25%;
       background-color: aqua; }
 
-.equipo {
+/* Sumate al equipo */
+.section__equipo {
   background-color: white;
   height: 720px;
   width: 100%; }
+  .section__equipo .texto__equipo h2 {
+    width: 742px;
+    height: 72px;
+    top: 4824px;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center; }
 
 .tienda {
   background-color: #661313;

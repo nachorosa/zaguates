@@ -327,14 +327,24 @@ $color5: #262626;
 
 }
 
-// equipo
+/* Sumate al equipo */
 
-.equipo {
+.section__equipo {
+
   background-color: white;
   height: 720px;
   width: 100%;
+  .texto__equipo{
+    h2{
+      width: 742px;
+      height: 72px;
+      top: 4824px;
+      font-weight: 800;
+      font-size: nth($fuentes, 7);
+      text-align: center;
+    }
+  }
 }
-
 // tienda
 
 .tienda {
