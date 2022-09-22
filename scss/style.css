@@ -89,7 +89,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 864px;
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 .banner-texto {
   padding-top: 5%;
@@ -97,15 +100,13 @@ body {
   color: white;
   width: 50%; }
 
-.banner-texto h1 {
-  font-weight: bolder;
-  margin-bottom: 5%;
-  font-size: 36px; }
-
 .banner-texto h2 {
   font-weight: bolder;
   margin-bottom: 5%;
   font-size: 64px; }
+
+.banner-texto p {
+  font-size: 30px; }
 
 .nosotros {
   background-color: white;
@@ -117,11 +118,9 @@ body {
   align-items: center; }
   .nosotros-texto {
     margin-left: 10%;
-    margin-right: 10%;
     border: solid 3px white;
     background-color: white;
     border-radius: 10px;
-    padding: 5%;
     text-align: left;
     height: 450px; }
     .nosotros-texto h2 {
@@ -164,6 +163,7 @@ body {
     left: 159px;
     top: 2723px; }
   .adoptar .razones__para__adoptar .involucrate {
+    margin-top: 5%;
     font-weight: 700;
     font-size: 30px; }
   .adoptar .nosotros-imagen {
@@ -204,6 +204,26 @@ body {
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
   align-items: center; }
+  .donar .css-button-shadow-border {
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    line-height: 200%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    margin: 1%;
+    box-shadow: -3px 3px 4px #00000020;
+    background: #A17A9B; }
+    .donar .css-button-shadow-border:hover {
+      background-color: #926f8d; }
+    .donar .css-button-shadow-border:active {
+      top: 1.5px; }
   .donar-botones {
     display: flex;
     width: 455px; }
