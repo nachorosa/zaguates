@@ -424,7 +424,7 @@ $color5: #262626;
     }
 
     .css-button-shadow-border {
-      width: 100%;
+      width: 268px;
       height: 40px;
       color: #fff;
       padding: 5px 10px;
@@ -451,8 +451,46 @@ $color5: #262626;
 // tienda
 
 .tienda {
-  background-color: rgb(102, 19, 19);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  background: no-repeat url("../multimedia/img/tienda/backgroundTienda.png");
   height: 661px;
   width: 100%;
+  .tienda__info{
+    height: 208px;
+    width: 456px;
+    left: 161px;
+    top: 5657px;
+  }
+  .img__tienda{
+    height: 464px;
+    width: 552px;
+    left: 729px;
+    top: 5565px;
+  }
+  .css-button-shadow-border {
+    width: 50%;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    line-height: 200%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    margin: 1%;
+    box-shadow: -3px 3px 4px #00000020;
+    background: #A17A9B;
+    &:hover {
+      background-color: #926f8d;
+    }
+    &:active {
+      top: 1.5px;
+    }
+  }
 }
 
