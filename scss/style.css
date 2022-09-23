@@ -212,6 +212,8 @@ body {
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
   align-items: center; }
+  .donar .mobile__version {
+    display: none; }
   .donar .css-button-shadow-border {
     width: 100%;
     height: 40px;
@@ -537,24 +539,56 @@ body {
   .adoptar {
     background: url("../multimedia/img/adopcionesMobile.png") no-repeat;
     background-size: cover;
-    height: 1200px;
+    width: 100%;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center; }
     .adoptar .razones__para__adoptar {
       display: none; }
-    .adoptar .nosotros-imagen {
-      display: none; }
     .adoptar .adoptar-texto {
       background-color: transparent;
       border: none;
       padding: 0;
-      margin-left: 20%;
-      margin-right: 20%;
-      height: auto; }
+      margin-left: 5%;
+      display: block; }
       .adoptar .adoptar-texto h2 {
         text-align: center;
-        line-height: 100%; }
+        line-height: 100%;
+        margin-left: 0%; }
       .adoptar .adoptar-texto p {
-        text-align: center; } }
+        text-align: left; }
+  /* Adoptar */
+  .donar {
+    display: flex;
+    flex-direction: column-reverse;
+    height: fit-content;
+    padding-top: 5%;
+    padding-bottom: 5%; }
+    .donar .mobile__version {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .donar .mobile__version .texto__mobile h2 {
+        color: #A17A9B;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 36px;
+        text-align: center; }
+      .donar .mobile__version .texto__mobile p {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        font-weight: 400; }
+      .donar .mobile__version .css-button-shadow-border {
+        width: 328px;
+        background-color: #FDE8D0;
+        color: #000000; }
+    .donar .donar-texto {
+      display: none; }
+    .donar .donar-imagen {
+      display: none; }
+  /* transferencia section */
+  .transferencia {
+    display: none; } }

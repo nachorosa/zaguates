@@ -188,7 +188,9 @@ $color5: #262626;
   grid-template-columns: 1fr 1fr;
   align-items:center;
   
-  
+  .mobile__version{
+    display: none;
+  }
   
   .css-button-shadow-border {
     width: 100%;
