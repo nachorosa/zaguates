@@ -335,13 +335,17 @@ $color5: #262626;
   height: 720px;
   width: 100%;
   .texto__equipo{
+    margin-top: 10%;
     h2{
-      width: 742px;
+      color: #A17A9B;
       height: 72px;
       top: 4824px;
       font-weight: 800;
       font-size: nth($fuentes, 7);
       text-align: center;
+    }
+    p{
+      font-weight: 400;
     }
   }
   /* section cards */
@@ -349,26 +353,18 @@ $color5: #262626;
     display: grid;
     gap: 1rem;
     padding: 1rem;
-    width: 1024px;
+    
     margin: 0 auto;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
     
     .card{
-      background: no-repeat url('../multimedia/img/sumate_al_equipo/voluntariado.png');
-      background-size: cover;
       position: relative;
       display: flex;
       align-items: flex-end;
       overflow: hidden;
-      text-align: center;
       color: whitesmoke;
-      border-radius: 20px;
-      box-shadow: 0 1px 1px rgba(0,0,0,0.1), 
-                  0 2px 2px rgba(0,0,0,0.1), 
-                  0 4px 4px rgba(0,0,0,0.1), 
-                  0 8px 8px rgba(0,0,0,0.1),
-                  0 16px 16px rgba(0,0,0,0.1);
+      border: none;
                   &:before {
                     content: '';
                     position: absolute;
@@ -391,8 +387,7 @@ $color5: #262626;
                     pointer-events: none;
                     transform: translateY(-50%);
                   }
-      .card-body{
-        position: relative;
+      .card-img-overlay{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -405,11 +400,16 @@ $color5: #262626;
         transform: translateY(100%);
         font-size: 38px;
         font-weight: bold;
+        text-align: center;
       }
       .card-text{
         opacity: 0;
       }
       &:hover{
+        .card-img{
+          filter:  brightness(70%);
+          transition: filter 700ms ease;
+        }
         .card-title{
           position: relative;
           transform: translateY(0%);
@@ -422,6 +422,7 @@ $color5: #262626;
       }
       
     }
+
     .css-button-shadow-border {
       width: 100%;
       height: 40px;
