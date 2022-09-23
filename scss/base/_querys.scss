@@ -1,38 +1,45 @@
 //versión mobile
-@media  screen and (min-width: 320px) and (max-width: 790px) {
+@media  screen and (max-width: 767px) {
     /* Banner section */
     .banner{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    
     background-image: url(../img/banner/portadaMobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 544px;
     top: 64px;
-    .banner-body{
-        background: linear-gradient(#21252900,#000000);
-            height: 240px;
-            width: 100%;
-            left: 0px;
-            top: 368px;
-            border-radius: 0px;
-        .banner-texto{
-            h2{
-                font-size: nth($fuentes, 5);
-                -webkit-text-stroke: .2px black;
-                height: 189px;
-                width: 272px;
-                left: 16px;
-                top: 344px;
-                gap: 16px;
-                border-radius: 0px;
-            }
-        }
-        }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .banner-body{
+    background: linear-gradient(#21252900,#000000);
+    height: 240px;
+    width: 100%;
+    left: 0px;
+    top: 368px;
+    border-radius: 0px;
+  }
+  .banner-texto {
+    padding-top: 5%;
+    padding-left: 15%;
+    color: white;
+    width: 50%;
+   
+  }
+  .banner-texto h2 {
+    font-weight: bolder;
+    margin-bottom: 5%;
+    font-size: 36px;
+    transform: translateY(-80px);
+  }
+  .banner-texto{
+    p{
+        display: none;
+        font-size: nth($fuentes, 5);
     }
+  }
     /* Banner section END */
 
     //About us
@@ -46,7 +53,6 @@
                 left: 0px;
                 top: 608px;
                 border-radius: 0px;
-
             .nosotros-texto{
                 background: transparent;
                 height: 267px;
@@ -54,12 +60,13 @@
                 top: 668px;
                 border: 0;
                 border-radius: 0;
-
+                margin-left: 5%;
                 h2{
+                    margin-top: 15%;
                     text-align: center;
                 }
-                p{
-                    text-align: center;
+                p{ 
+                    text-align: start;
                 }
             }
             .nosotros-imagen{
@@ -83,7 +90,6 @@
             display: none;
         }
         .adoptar-texto{
-            z-index: 1;
             background-color: transparent;
             border: none;
             padding: 0;
