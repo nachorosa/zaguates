@@ -148,5 +148,33 @@
     .transferencia{
         display: none;
     }
+    /* Sumate al equipo section */
+    .section__equipo{
+        .texto__equipo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                margin: 10%;
+            }
+        }
+        .section__cards{
+            .card{
+                .card-img{
+                    filter:  brightness(70%);
+                    transition: filter 700ms ease;
+                  }
+                .card-title{
+                    position: relative;
+                    transform: translateY(0%);
+                    transition: transform 700ms;
+                  }
+                .card-text{
+                    opacity: 1;
+                    transition: all 1s ease;
+                  }
+            }
+        }
+    }
 }
 

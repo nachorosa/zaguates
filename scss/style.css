@@ -333,14 +333,15 @@ body {
     margin: 0 auto;
     grid-template-columns: repeat(4, 1fr);
     place-items: center; }
-    .section__equipo .section__cards .card {
+    .section__equipo .section__cards .card_container .card {
       position: relative;
       display: flex;
       align-items: flex-end;
       overflow: hidden;
       color: whitesmoke;
-      border: none; }
-      .section__equipo .section__cards .card:before {
+      border: none;
+      margin-bottom: 10%; }
+      .section__equipo .section__cards .card_container .card:before {
         content: '';
         position: absolute;
         top: 0;
@@ -350,7 +351,7 @@ body {
         background-size: cover;
         background-position: 0 0;
         pointer-events: none; }
-      .section__equipo .section__cards .card:after {
+      .section__equipo .section__cards .card_container .card:after {
         content: '';
         display: block;
         position: absolute;
@@ -360,32 +361,22 @@ body {
         height: 200%;
         pointer-events: none;
         transform: translateY(-50%); }
-      .section__equipo .section__cards .card .card-img-overlay {
+      .section__equipo .section__cards .card_container .card .card-img-overlay {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
         padding: 1rem;
         z-index: 1; }
-      .section__equipo .section__cards .card .card-title {
+      .section__equipo .section__cards .card_container .card .card-title {
         position: relative;
         transform: translateY(100%);
         font-size: 38px;
         font-weight: bold;
         text-align: center; }
-      .section__equipo .section__cards .card .card-text {
+      .section__equipo .section__cards .card_container .card .card-text {
         opacity: 0; }
-      .section__equipo .section__cards .card:hover .card-img {
-        filter: brightness(70%);
-        transition: filter 700ms ease; }
-      .section__equipo .section__cards .card:hover .card-title {
-        position: relative;
-        transform: translateY(0%);
-        transition: transform 700ms; }
-      .section__equipo .section__cards .card:hover .card-text {
-        opacity: 1;
-        transition: all 1s ease; }
-    .section__equipo .section__cards .css-button-shadow-border {
+    .section__equipo .section__cards .card_container .css-button-shadow-border {
       width: 268px;
       height: 40px;
       color: #fff;
@@ -401,10 +392,20 @@ body {
       margin: 1%;
       box-shadow: -3px 3px 4px #00000020;
       background: #A17A9B; }
-      .section__equipo .section__cards .css-button-shadow-border:hover {
-        background-color: #926f8d; }
-      .section__equipo .section__cards .css-button-shadow-border:active {
+      .section__equipo .section__cards .card_container .css-button-shadow-border:active {
         top: 1.5px; }
+    .section__equipo .section__cards .card_container:hover .css-button-shadow-border {
+      background-color: #926f8d; }
+    .section__equipo .section__cards .card_container:hover .card-img {
+      filter: brightness(70%);
+      transition: filter 700ms ease; }
+    .section__equipo .section__cards .card_container:hover .card-title {
+      position: relative;
+      transform: translateY(0%);
+      transition: transform 700ms; }
+    .section__equipo .section__cards .card_container:hover .card-text {
+      opacity: 1;
+      transition: all 1s ease; }
 
 .tienda {
   display: grid;
@@ -591,4 +592,21 @@ body {
       display: none; }
   /* transferencia section */
   .transferencia {
-    display: none; } }
+    display: none; }
+  /* Sumate al equipo section */
+  .section__equipo .texto__equipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .section__equipo .texto__equipo p {
+      margin: 10%; }
+  .section__equipo .section__cards .card .card-img {
+    filter: brightness(70%);
+    transition: filter 700ms ease; }
+  .section__equipo .section__cards .card .card-title {
+    position: relative;
+    transform: translateY(0%);
+    transition: transform 700ms; }
+  .section__equipo .section__cards .card .card-text {
+    opacity: 1;
+    transition: all 1s ease; } }
