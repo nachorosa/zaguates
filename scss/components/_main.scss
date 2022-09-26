@@ -296,7 +296,7 @@ $color5: #262626;
   grid-template-rows: 1fr ;
   grid-template-columns: 1fr 1fr;
   align-items:center;
-  background-color: yellow;
+  // background-color: yellow;
 
  &_texto{
     margin-left: 10%;
@@ -309,7 +309,7 @@ $color5: #262626;
       line-height: 44px;
       text-align: left;
       margin-bottom: 20px;
-      background-color: red;
+      // background-color: red;
   }
 
   & p{
@@ -320,7 +320,7 @@ $color5: #262626;
     line-height: 24px;
     text-align: left;
     margin-right: 25%;
-    background-color: aqua;
+    // background-color: aqua;
 }
 } 
 
