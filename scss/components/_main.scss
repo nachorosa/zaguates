@@ -451,27 +451,69 @@ $color5: #262626;
 }
 // tienda
 
+// .tienda {
+//   display: grid;
+//   grid-template-columns: repeat(2, 1fr);
+//   grid-template-rows: 1fr;
+//   background: no-repeat url("../multimedia/img/tienda/backgroundTienda.png");
+//   height: 661px;
+//   width: 100%;
+//   .tienda__info{
+//     height: 208px;
+//     width: 456px;
+//     left: 161px;
+//     top: 5657px;
+//   }
+//   .img__tienda{
+//     height: 464px;
+//     width: 552px;
+//     left: 729px;
+//     top: 5565px;
+//   }
+//   .css-button-shadow-border {
+//     width: 50%;
+//     height: 40px;
+//     color: #fff;
+//     padding: 5px 10px;
+//     line-height: 200%;
+//     cursor: pointer;
+//     transition: all 0.3s ease;
+//     position: relative;
+//     display: inline-block;
+//     outline: none;
+//     border-radius: 8px;
+//     border: none;
+//     margin: 1%;
+//     box-shadow: -3px 3px 4px #00000020;
+//     background: #A17A9B;
+//     &:hover {
+//       background-color: #926f8d;
+//     }
+//     &:active {
+//       top: 1.5px;
+//     }
+//   }
+// }
+
+// tienda
+
 .tienda {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  background: no-repeat url("../multimedia/img/tienda/backgroundTienda.png");
+  background-image: url("../../img/fondo_tienda.png");
   height: 661px;
   width: 100%;
-  .tienda__info{
-    height: 208px;
-    width: 456px;
-    left: 161px;
-    top: 5657px;
-  }
-  .img__tienda{
-    height: 464px;
-    width: 552px;
-    left: 729px;
-    top: 5565px;
-  }
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  display: grid;
+  grid-template-rows: 1fr ;
+  grid-template-columns: 1fr 1fr;
+  align-items:center;
+  
+ 
+  
   .css-button-shadow-border {
-    width: 50%;
+    width: 100%;
     height: 40px;
     color: #fff;
     padding: 5px 10px;
@@ -493,5 +535,92 @@ $color5: #262626;
       top: 1.5px;
     }
   }
+  
+
+&-botones{
+  display: flex;
+  width: 455px;
+}
+ 
+&-imagen{
+  width: 552px;
+  height: 464px;
 }
 
+&-texto{
+    margin-left: 10%;
+
+    text-align: left;
+      & h2{
+      color: $color4;
+      font-family: Poppins;
+      font-size: 64px;
+      font-weight: 800;
+      line-height: 44px;
+      text-align: left;
+      margin-bottom: 20px;
+      
+  }
+
+  & p{
+     color: $color5;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+     margin-right: 25%;
+ }
+}
+}
+
+
+// MOBILE - tienda
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+  .tienda {
+    grid-template-columns: 1fr;
+
+  &-botones{
+    width: 80%;
+    
+  }
+   
+  &-imagen{
+    width: 330px;
+    height: 100%;
+  }
+
+  }
+  
+}
+
+
+
+// MOBILE - sumate al equipo
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+/* Sumate al equipo */
+
+.section__equipo {
+
+  height: 1765px;
+ 
+  .texto__equipo{
+ 
+    h2{
+      height: 20px;
+      font-size: 32px;
+    }
+ 
+  }
+  /* section cards */
+  .section__cards{
+ 
+    grid-template-columns: 1fr;
+ 
+ 
+  }
+}
+
+}
