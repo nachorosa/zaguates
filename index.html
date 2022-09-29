@@ -36,8 +36,6 @@
                     <a href="#"><img src="./img/Icons/logo_2.svg" alt="logo_principal" class="navbar_logo px-4">
                     </a>
                 </div>
-
-
                 <!-- Boton hamburguesa -->
                 <button class="navbar-toggler botonColapseNav" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -70,10 +68,10 @@
                                 Info Útil
                             </a>
                             <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Salud</a></li>
-                                <li><a class="dropdown-item" href="#">Educacion</a></li>
-                                <li><a class="dropdown-item" href="#">Maltrato</a></li>
-                                <li><a class="dropdown-item" href="#">Castraciones</a></li>
+                                <li for="show"><a class="dropdown-item" href="#">Rescatar</a></li>
+                                <li><a class="dropdown-item" href="#" for="show">Maltrato</a></li>
+                                <li><a class="dropdown-item" href="#" for="show">Vacunas</a></li>
+                                <li><a class="dropdown-item" href="#"for='show'>Castraciones</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -87,20 +85,31 @@
         </nav>
 
     </header>
-
-    <!-- MAIN -->
-    <!-- <main>
-        <section id="portadaHome" class="main__portada p-4 p-md-5 mb-4 rounded">
-            <div class="col-md-6 px-0">
-                <h1 data-aos="fade-right" class="display-4">¿NO RESULTA RARO COMPRAR AMOR?</h1>
-                <p data-aos="fade-left"  class="lead my-3 display-4">COMPRAR FOMENTA EL MALTRATO, ADOPTAR SALVA VIDAS</p>
-            </div>
-            
-        </section>
-    </main> -->
-
     <main>
-
+        <section class="infoUtil__section">
+                <!-- Seccion Rescatar-->
+                    <article class="rescatar__container" id="rescatar">
+                        <div class="main__texto__rescatar">
+                            <h2>¿Querés rescatar <br> y no sabes cómo?</h2>
+                        </div>
+                        <div class="img__container">
+                            <img src="./multimedia/img/infoUtil/rescatarImg.png" class="rescatar__img" alt="rescatarinformacion">
+                        </div>
+                    </article>
+                <!-- End Rescatar section -->
+                <!-- seccion Maltrato -->
+                <article class="maltrato__container container-fluid">
+                    <div class="d-flex flex-column align-items-center textos__maltrato">
+                        <h2>Denunciá el maltrato</h2>
+                        <p class="text-center">
+                            ¿Lamentablemente sos o fuiste testigo de maltrato animal?<br><strong>¡DENUNCIALO!</strong> No permitas que esa situación continúe sin hacer algo al  <br> respecto. Gracias a vos, un animal puede cambiar su vida de <br> sufrimiento constante o incluso evitar la muerte.
+                        </p>
+                        <img src="./multimedia/img/infoUtil/maltratoImg1.png"   class="maltrato__img1" alt="el maltrato es  un delito">
+                        <img src="./multimedia/img/infoUtil/maltratoImg2.png" class="maltrato__img2" alt="como  denunciar el maltrato">
+                    </div>
+                </article>
+                <!-- End seccion maltrato -->
+        </section>
         <!-- banner -->
         <section class="banner">
             <div class="banner-body">
@@ -297,7 +306,7 @@
                         <img src="./multimedia/img/sumate_al_equipo/voluntariado.png" class="card-img" alt="">
                     <div class="card-img-overlay">
                         <h5 class="card-title">Equipo de voluntarios</h5>
-                        <p class="card-text">Para acompañar en consultas veterinarias, visitar a algun animalito que se encuentre internado, colaborar en jornadas, ¡o en lo que se necesite! </p>
+                        <p class="card-text">Para acompañar en consultas veterinarias, visitar a algún animalito que se encuentre internado, colaborar en jornadas, ¡o en lo que se necesite! </p>
                     </div>
                     </div>
                     <div class="css-button-shadow-border text-center">ME QUIERO SUMAR</div>
@@ -310,7 +319,7 @@
                             <h5 class="card-title">Equipo de fotografos</h5>
 
                             <p class="card-text">
-                                Cuando un rescatado esta recuperado y listo para buscar una familia te necesitamos para que retrates su mejor version. 
+                                Cuando un rescatado esta recuperado y listo para buscar una familia te necesitamos para que retrates su mejor versión. 
                             </p>
                         </div>
                     </div>

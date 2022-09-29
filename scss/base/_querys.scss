@@ -1,5 +1,48 @@
 //versión mobile
 @media  screen and (max-width: 767px) {
+    .navbar{
+        width: 100%;
+        z-index: 1;
+        .redes{
+            display: none;
+        }
+        .navbar_logo{
+            position: absolute;
+            width: 105px;
+            height: 32px;
+            top: 16px;
+            left: 0px;
+        }
+        .navbar-nav{
+            .nav-item{
+                .nosotros-nav{
+                    display: none;
+                }
+                .adopciones{
+                    display: none;
+                }
+                .voluntariado{
+                    display: none;
+                }
+                .donaciones{
+                    display:none;
+                }
+                .tienda-nav{
+                    display: none;
+                }
+                .info_util_nav{
+                    display: none;
+                }
+                .dropdown-menu{
+                    display: block;
+                    box-shadow: none;
+                    left: 0px;
+                    top: -187px;
+                }
+            }
+            
+        }
+    }
     /* Banner section */
     .banner{
     background-image: url(../img/banner/portadaMobile.png);
@@ -158,23 +201,424 @@
                 margin: 10%;
             }
         }
-        .section__cards{
-            .card{
-                .card-img{
-                    filter:  brightness(70%);
-                    transition: filter 700ms ease;
-                  }
-                .card-title{
-                    position: relative;
-                    transform: translateY(0%);
-                    transition: transform 700ms;
-                  }
-                .card-text{
-                    opacity: 1;
-                    transition: all 1s ease;
-                  }
+    }
+
+    /* Info util */
+    /* RESCATAR SECTION */
+    .rescatar__container{
+        .dotted{
+            position: absolute;
+            width: 328px;
+            height: 0px;
+            left: 16px;
+            top: 802px;
+            
+            border-top: 3px dotted #A17A9B;
+        }
+        .main__texto__rescatar{
+            h2{
+            position: absolute;
+            width: 328px;
+            height: 104px;
+            left: 16px;
+            top: 40px;
+    
+            font-size: 32px;
+            line-height: 48px;
+            }
+        }
+        .mobile__container__img{
+            position: absolute;
+            width: 328px;
+            height: 344px;
+            left: 16px;
+            top: 216px;
+            background: url('../multimedia/img/infoUtil/rescatarImgMobile.png');
+        }
+        .img__container{
+            display:none;
+        }
+        .mobile__textos{
+            display: block;
+            .patitasIcon{
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                left: 16px;
+                top: 608px;
+            }
+            .parrafo{
+                position: absolute;
+                width: 296px;
+                height: 176px;
+                left: 48px;
+                top: 608px;
+
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .texto__2{
+                .parrafo2{
+                position: absolute;
+                width: 296px;
+                height: 176px;
+                left: 48px;
+                top: 817px;
+
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                }
+                .patitasIcon2{
+                    position: absolute;
+                    width: 24px;
+                    height: 24px;
+                    left: 16px;
+                    top: 817px;
+            }
+        }
+        .dotted2{
+            position: absolute;
+            width: 328px;
+            height: 0px;
+            left: 16px;
+            top: 976px;
+
+            border-top: 3px dotted #A17A9B;
+        }
+        .texto__3{
+            .parrafo3{
+                position: absolute;
+                width: 296px;
+                height: 200px;
+                left: 48px;
+                top: 992px;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .patitasIcon3{
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                left: 16px;
+                top: 992px;
+            }
+        }
+        .dotted3{
+            position: absolute;
+            width: 328px;
+            height: 0px;
+            left: 16px;
+            top: 1208px;
+
+            border-top: 4px dotted #A17A9B;
+        }
+        .texto__4{
+            .parrafo4{
+                position: absolute;
+                width: 296px;
+                height: 144px;
+                left: 48px;
+                top: 1224px;
+
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            
+            .patitasIcon4{
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                left: 16px;
+                top: 1224px;
+            }
+        }
+        }
+    }
+    /* END RESCATAR SECTION */
+    /* Vacunas */
+    .vacunas__container{
+        width: 100%;
+        .vacunas__title{
+            width: 328px;
+            height: 32px;
+            left: 103px;
+            top: 134px;
+
+            font-size: 32px;
+            line-height: 68px;
+        }
+        .margin__col__1{
+            .col__1__parrafo{
+                width: 323px;
+                height: 288px;
+                left: 16px;
+                top: 186px;
+                text-align: center;
+                line-height: 24px;
+            }
+        }
+        .margin__col__2{
+            .rectangulo{
+                width: 328px;
+                height: 352px;
+                left: 16px;
+                top: 672px;
+                .rectangulo__img{
+                    width: 298px;
+                    height: 137px;
+                    left: 31px;
+                    top: 464px;
+                }
+                .rectangulo__parrafo{  
+                    position: absolute;
+                    width: 275px;
+                    height: 171px;
+                    left: 31px;
+                    top: 172px;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                }
+            }
+            
+        }
+        .margin__col__3{
+            width: 328px;
+            height: 400px;
+            left: 14px;
+            top: 1038px;
+            .rectangulo2{
+                .dog{
+                    width: 64px;
+                    height: 64px;
+                    left: 24px;
+    
+                }
+                .listarectangulo2{
+                    .parrafo{
+                        width: 224px;
+                        height: 96px;
+                        left: 104px;
+                        top: 25px;
+                    
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                    .quintuple{
+                        width: 240px;
+                        height: 40px;
+                        left:18px;
+
+                        font-size: 16px;
+                        line-height: 24px;
+                        .vaccine{
+                            width: 48px;
+                            height: 40px;
+                            
+                        }
+                    }
+                    .sextuple{
+                        width: 240px;
+                        height: 40px;
+                        left:18px;
+
+                        font-size: 16px;
+                        line-height: 24px;
+                        .vaccine{
+                            width: 48px;
+                            height: 40px;
+                        }
+                    }
+                    .refuerzo{
+                        width: 240px;
+                        height: 40px;
+                        left:18px;
+
+                        font-size: 16px;
+                        line-height: 24px;
+                        .vaccine{
+                            width: 48px;
+                            height: 40px;
+                        }
+                    }
+                    .antirrabica{
+                        width: 240px;
+                        height: 96px;
+                        left: 67px;
+                        top: 291px;
+                        font-size: 16px;
+                        line-height: 24px;
+                        display: flex;
+                        align-items: center;
+                        .vaccine{
+                            left: -52px;
+                            right: 0;
+                        }
+                    }
+                    
+                }
+                }
+            }
+        .margin__col__4{
+            width: 328px;
+            height: 288px;
+            left: 14px;
+            top: 1459px;
+            .rectangulo3{
+                .rectangulo3cat{
+                    width: 64px;
+                    height: 64px;
+
+                    left: 21px;
+                }
+                .rectangulo3parrafo{
+                    width: 224px;
+                    height: 96px;
+                    left: 88px;
+                    top: 33px;                    
+
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .triple{
+                    width: 239px;
+                    height: 40px;
+                    left: 20px;
+                    top: 137px;
+
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .leucemia{
+                    width: 239px;
+                    height: 40px;
+                    left: 20px;
+                    top: 180px;
+
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .antirrabica{
+                    width: 239px;
+                    height: 40px;
+                    left: 20px;
+                    top: 225px;
+
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .vaccine{
+                    width: 49px;
+                    height: 40px;
+                }
             }
         }
     }
-}
+    /* end  vacunas */
+    /* FOOTER */
+    .footerresc{
+        position: absolute;
+        width: 100%;
+        height: 64px;
+        left: 0px;
+        top: 1416px;
+        background: #262626;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+        .footer__layout{
+            width: 327px;
+            height: 32px;
+            .footer_logo{
+                position: absolute;
+                width: 54px;
+                top: 15px;
+                left: 16px;
+            }
+            .footer_texto{
+                display: none;
+            }
+            .footer_redes_img{
+                position: absolute;
+                left: 376px;
+                top: 13px;
+                .mail{
+                    display: none;
+                }
+                .fb{
+                    display: none;
+                }
+            }
+        }
+    }
+    .footervacc{
+        top: 1827px;
+        width: 360px;
+        height: 64px;
+        left: 0px;
 
+        background: #262626;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+        .footer__layout{
+            width: 327px;
+            height: 32px;
+            left: 20px;
+            top: 20px;
+            .footer_logo{
+                position: absolute;
+                width: 54px;
+                top: -24px;
+            }
+            .footer_texto{
+                display: none;
+            }
+            .footer_redes_img{
+                position: absolute;
+                left: 292px;
+                .mail{
+                    display: none;
+                }
+                .fb{
+                    display: none;
+                }
+            }
+        }
+    }
+    /* END FOOTER */
+    }
+    
+
+    @media screen and (min-width: 1388px){
+        /* VACUNAS SECTION */
+        .vacunas__container{
+            .vacunas__title{
+                left: 741px;
+            }
+            .margin__col__1{
+                .col__1__parrafo{
+                    left: 348px;
+                    top: 331px;
+                }
+            }
+            .margin__col__2{
+                .rectangulo{
+                    left: 934px;
+                }
+            }
+            .margin__col__3{
+                left: 333px;
+            }
+            .margin__col__4{
+                left: 937px;
+            }
+        
+    }
+    /* END VACUNAS SECTION */
+}    
