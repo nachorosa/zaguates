@@ -33,7 +33,7 @@
             <div class="container-fluid container-lg  container-sm  container-xl  container-xxl">
                 <!-- Logo del navbar -->
                 <div class="p-2">
-                    <a href="#"><img src="./img/Icons/logo_2.svg" alt="logo_principal" class="navbar_logo px-4">
+                    <a href="#"><img src="../img/Icons/logo_2.svg" alt="logo_principal" class="navbar_logo px-4">
                     </a>
                 </div>
                 <!-- Boton hamburguesa -->
@@ -46,39 +46,39 @@
                 <div class="collapse navbar-collapse p-2" id="navbarNav">
                     <ul class="navbar-nav navbar__boton p-4">
                         <li class="nav-item navbar__boton--home px-2">
-                            <a class="nav-link active navbar__boton--home--ruta" aria-current="page"
-                                href="#">Nosotros</a>
+                            <a class="nav-link active navbar__boton--home--ruta  nosotros-nav" aria-current="page"
+                                href="../index.html#nosotros">Nosotros</a>
                         </li>
                         <li class="nav-item navbar__boton--home px-2">
-                            <a class="nav-link active navbar__boton--home--ruta" href="#">Adopciones</a>
+                            <a class="nav-link active navbar__boton--home--ruta adopciones" href="./index.html#adopciones">Adopciones</a>
                         </li>
                         <li class="nav-item navbar__boton--home px-2">
-                            <a class="nav-link active nav-item navbar__boton--home--ruta" href="#">Donaciones</a>
+                            <a class="nav-link active nav-item navbar__boton--home--ruta donaciones" href="./index.html#donaciones">Donaciones</a>
                         </li>
                         <li class="nav-item navbar__boton--home px-2">
-                            <a class="nav-link active navbar__boton--home--ruta" aria-current="page" href="#">Voluntariado</a>
+                            <a class="nav-link active navbar__boton--home--ruta voluntariado" aria-current="page" href="./index.html#voluntariado">Voluntariado</a>
                         </li>
                         <li class="nav-item navbar__boton--home px-2">
-                            <a class="nav-link active navbar__boton--home--ruta" aria-current="page"
-                                href="#">Tienda</a>
+                            <a class="nav-link active navbar__boton--home--ruta tienda-nav" aria-current="page"
+                                href="../index.html#tienda">Tienda</a>
                         </li>
                         <li class="nav-item dropdown px-2">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink"
+                            <a class="nav-link dropdown-toggle active info_util_nav" href="#" id="navbarDropdownMenuLink"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Info Útil
                             </a>
                             <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                                <li for="show"><a class="dropdown-item" href="#">Rescatar</a></li>
-                                <li><a class="dropdown-item" href="#" for="show">Maltrato</a></li>
-                                <li><a class="dropdown-item" href="#" for="show">Vacunas</a></li>
-                                <li><a class="dropdown-item" href="#"for='show'>Castraciones</a></li>
+                                <li><a class="dropdown-item" href="./pages/rescatar.html#rescatar">Rescatar</a></li>
+                                <li><a class="dropdown-item" href="./pages/maltrato.html#maltrato" >Maltrato</a></li>
+                                <li><a class="dropdown-item" href="./pages/vacunas.htm#vacunas" >Vacunas</a></li>
+                                <li><a class="dropdown-item" href="./pages/castrar.html#castraciones">Castraciones</a></li>
                             </ul>
                         </li>
                     </ul>
-                    <div class="mx-4 ">
-                        <a href="#"><img src="./img/Icons/gmail.svg" alt="instagram" class="hover__effect"></a>
-                        <a href="#"><img src="./img/Icons/facebook.svg" alt="facebook" class="hover__effect"></a>
-                        <a href="#"><img src="./img/Icons/instagram.svg" alt="gmail" class="hover__effect"></a>
+                    <div class="mx-4 redes">
+                        <a href="#"><img src="../img/Icons/gmail.svg" alt="instagram" class="hover__effect"></a>
+                        <a href="#"><img src="../img/Icons/facebook.svg" alt="facebook" class="hover__effect"></a>
+                        <a href="#"><img src="../img/Icons/instagram.svg" alt="gmail" class="hover__effect"></a>
                     </div>
                 </div>
             </div>
@@ -86,30 +86,6 @@
 
     </header>
     <main>
-        <section class="infoUtil__section">
-                <!-- Seccion Rescatar-->
-                    <article class="rescatar__container" id="rescatar">
-                        <div class="main__texto__rescatar">
-                            <h2>¿Querés rescatar <br> y no sabes cómo?</h2>
-                        </div>
-                        <div class="img__container">
-                            <img src="./multimedia/img/infoUtil/rescatarImg.png" class="rescatar__img" alt="rescatarinformacion">
-                        </div>
-                    </article>
-                <!-- End Rescatar section -->
-                <!-- seccion Maltrato -->
-                <article class="maltrato__container container-fluid">
-                    <div class="d-flex flex-column align-items-center textos__maltrato">
-                        <h2>Denunciá el maltrato</h2>
-                        <p class="text-center">
-                            ¿Lamentablemente sos o fuiste testigo de maltrato animal?<br><strong>¡DENUNCIALO!</strong> No permitas que esa situación continúe sin hacer algo al  <br> respecto. Gracias a vos, un animal puede cambiar su vida de <br> sufrimiento constante o incluso evitar la muerte.
-                        </p>
-                        <img src="./multimedia/img/infoUtil/maltratoImg1.png"   class="maltrato__img1" alt="el maltrato es  un delito">
-                        <img src="./multimedia/img/infoUtil/maltratoImg2.png" class="maltrato__img2" alt="como  denunciar el maltrato">
-                    </div>
-                </article>
-                <!-- End seccion maltrato -->
-        </section>
         <!-- banner -->
         <section class="banner">
             <div class="banner-body">
@@ -126,7 +102,7 @@
 
             <div class="nosotros">
                 <div data-aos="flip-left" data-aos-duration="2000" class="nosotros-texto">
-                    <h2>QUIENES SOMOS</h2>
+                    <h2 id="nosotros">QUIENES SOMOS</h2>
                     <br><br>
                     <p >
                         Zaguates nació en el 2014 de la mano de Dolores y Macarena. <br> Su pasión por los animales, las llevó a unirse con el fin de luchar contra el maltrato  y abandono animal. En el 2017 formaron la Asociación Civil que continúa creciendo al día de hoy.  <br><br>
@@ -153,7 +129,7 @@
         <section>
 
 
-            <div class="adoptar">
+            <div class="adoptar" id="adopciones">
                 <!-- Razones para adoptar mobile -->
                 <div data-aos="flip-left" data-aos-duration="2000" class="adoptar-texto">
                     <h2>Razones para adoptar</h2>
@@ -194,7 +170,7 @@
         <section>
 
 
-            <div class="donar">
+            <div class="donar" id="donaciones">
                 <div class="mobile__version">
                     <img src="./multimedia/img/razonesParaAdoptar/donarMobile.png" alt="imagen_donar">
                     <div class="texto__mobile">
@@ -272,7 +248,7 @@
         </section>
 
         <!-- sumate al equipo -->
-        <section class="section__equipo">
+        <section class="section__equipo" id="voluntariado">
             <div class="texto__equipo text-center">
                 <h2>¡Sumate al equipo!</h2>
                 <p>
@@ -331,7 +307,7 @@
         </section>
 
         <!-- tienda -->
-        <section class="tienda">
+        <section class="tienda" id="tienda">
             <div class="tienda__info">
                 <h2>Tienda</h2>
                 <p>En proceso... Estamos trabajando para darles una linda sorpresa, donde el 100% de lo recaudado será para seguir con esta hermosa labor. </p>
