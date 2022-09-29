@@ -600,183 +600,185 @@ body {
 
 /* end castraciones */
 /* Vacunas  page */
-.vacunas__container {
-  margin-left: 1000px; }
-  .vacunas__container .vacunas__title {
+.vacunas__container .vacunas__title {
+  position: absolute;
+  width: 1120px;
+  height: 64px;
+  left: 513px;
+  top: 200px;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 68px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #A17A9B; }
+
+.vacunas__container .margin__col__1 .col__1__parrafo {
+  position: absolute;
+  width: 455px;
+  height: 386px;
+  left: 166px;
+  top: 331px;
+  font-size: 24px;
+  line-height: 30px;
+  /* or 125% */
+  color: #000000; }
+
+.vacunas__container .margin__col__2 .rectangulo {
+  width: 552px;
+  height: 432px;
+  left: 728px;
+  top: 320px;
+  position: absolute;
+  background: #EFEFEF;
+  border-radius: 30px; }
+  .vacunas__container .margin__col__2 .rectangulo .rectangulo__img {
+    width: 504px;
+    height: 231px;
+    left: 752px;
+    top: 321px;
+    margin-top: 1px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 34px; }
+  .vacunas__container .margin__col__2 .rectangulo .rectangulo__parrafo {
     position: absolute;
-    width: 1120px;
-    height: 64px;
-    left: 513px;
-    top: 200px;
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 68px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #A17A9B; }
-  .vacunas__container .margin__col__1 .col__1__parrafo {
+    width: 437px;
+    height: 120px;
+    left: 63px;
+    font-size: 20px;
+    line-height: 25px; }
+
+.vacunas__container .margin__col__3 {
+  position: absolute;
+  width: 552px;
+  height: 416px;
+  left: 162px;
+  top: 816px;
+  background: #FDE8D0;
+  border-radius: 30px; }
+  .vacunas__container .margin__col__3 .dog {
     position: absolute;
-    width: 455px;
-    height: 386px;
-    left: 166px;
-    top: 331px;
-    font-size: 24px;
-    line-height: 30px;
-    /* or 125% */
+    width: 80px;
+    height: 80px;
+    left: 55px;
+    right: 25px;
+    top: 40px; }
+  .vacunas__container .margin__col__3 .listarectangulo2 {
+    list-style: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
     color: #000000; }
-  .vacunas__container .margin__col__2 .rectangulo {
-    width: 552px;
-    height: 432px;
-    left: 728px;
-    top: 320px;
-    position: absolute;
-    background: #EFEFEF;
-    border-radius: 30px; }
-    .vacunas__container .margin__col__2 .rectangulo .rectangulo__img {
-      width: 504px;
-      height: 231px;
-      left: 752px;
-      top: 321px;
-      margin-top: 1px;
-      margin-left: 24px;
-      margin-right: 24px;
-      margin-bottom: 34px; }
-    .vacunas__container .margin__col__2 .rectangulo .rectangulo__parrafo {
+    .vacunas__container .margin__col__3 .listarectangulo2 .parrafo {
       position: absolute;
-      width: 437px;
-      height: 120px;
-      left: 63px;
-      font-size: 20px;
-      line-height: 25px; }
-  .vacunas__container .margin__col__3 {
-    position: absolute;
-    width: 552px;
-    height: 416px;
-    left: 162px;
-    top: 816px;
-    background: #FDE8D0;
-    border-radius: 30px; }
-    .vacunas__container .margin__col__3 .dog {
-      position: absolute;
-      width: 80px;
+      width: 339px;
       height: 80px;
-      left: 55px;
-      right: 25px;
-      top: 40px; }
-    .vacunas__container .margin__col__3 .listarectangulo2 {
-      list-style: none;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 27px;
-      color: #000000; }
-      .vacunas__container .margin__col__3 .listarectangulo2 .parrafo {
-        position: absolute;
-        width: 339px;
-        height: 80px;
-        top: 40px;
-        right: 53px;
-        left: 160px;
-        list-style: none;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 30px;
-        align-items: center;
-        text-transform: uppercase;
-        color: #A17A9B; }
-      .vacunas__container .margin__col__3 .listarectangulo2 .quintuple {
-        position: absolute;
-        width: 444px;
-        height: 40px;
-        left: 59px;
-        top: 144px;
-        font-size: 18px;
-        display: flex;
-        align-items: center; }
-      .vacunas__container .margin__col__3 .listarectangulo2 .sextuple {
-        position: absolute;
-        width: 172px;
-        height: 40px;
-        left: 59px;
-        top: 192px;
-        font-size: 18px;
-        display: flex;
-        align-items: center; }
-      .vacunas__container .margin__col__3 .listarectangulo2 .refuerzo {
-        position: absolute;
-        width: 302px;
-        height: 40px;
-        left: 59px;
-        top: 240px;
-        margin-bottom: 16px;
-        font-size: 18px; }
-      .vacunas__container .margin__col__3 .listarectangulo2 .antirrabica {
-        position: absolute;
-        width: 368px;
-        height: 72px;
-        top: 307px;
-        left: 109px;
-        bottom: 48px;
-        font-size: 18px;
-        display: flex;
-        align-items: center; }
-        .vacunas__container .margin__col__3 .listarectangulo2 .antirrabica .vaccine {
-          position: absolute;
-          width: 48px;
-          height: 40px;
-          right: 369px;
-          top: -11px; }
-  .vacunas__container .margin__col__4 {
-    position: absolute;
-    width: 552px;
-    height: 416px;
-    left: 730px;
-    top: 816px;
-    background: #FDE8D0;
-    border-radius: 30px; }
-    .vacunas__container .margin__col__4 .rectangulo3cat {
-      position: absolute;
-      width: 80px;
-      height: 80px;
-      left: 55px;
-      top: 40px; }
-    .vacunas__container .margin__col__4 .rectangulo3parrafo {
-      position: absolute;
-      width: 334px;
-      height: 80px;
-      left: 160px;
       top: 40px;
+      right: 53px;
+      left: 160px;
+      list-style: none;
       font-weight: 700;
       font-size: 20px;
       line-height: 30px;
-      display: flex;
       align-items: center;
       text-transform: uppercase;
       color: #A17A9B; }
-    .vacunas__container .margin__col__4 .triple {
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 27px;
-      list-style: none;
+    .vacunas__container .margin__col__3 .listarectangulo2 .quintuple {
       position: absolute;
+      width: 444px;
+      height: 40px;
+      left: 59px;
       top: 144px;
-      left: 59px; }
-    .vacunas__container .margin__col__4 .leucemia {
-      font-weight: 400;
       font-size: 18px;
-      line-height: 27px;
-      list-style: none;
+      display: flex;
+      align-items: center; }
+    .vacunas__container .margin__col__3 .listarectangulo2 .sextuple {
       position: absolute;
+      width: 172px;
+      height: 40px;
+      left: 59px;
       top: 192px;
-      left: 59px; }
-    .vacunas__container .margin__col__4 .antirrabica {
-      font-weight: 400;
       font-size: 18px;
-      line-height: 27px;
-      list-style: none;
+      display: flex;
+      align-items: center; }
+    .vacunas__container .margin__col__3 .listarectangulo2 .refuerzo {
       position: absolute;
+      width: 302px;
+      height: 40px;
+      left: 59px;
       top: 240px;
-      left: 59px; }
+      margin-bottom: 16px;
+      font-size: 18px; }
+    .vacunas__container .margin__col__3 .listarectangulo2 .antirrabica {
+      position: absolute;
+      width: 368px;
+      height: 72px;
+      top: 307px;
+      left: 109px;
+      bottom: 48px;
+      font-size: 18px;
+      display: flex;
+      align-items: center; }
+      .vacunas__container .margin__col__3 .listarectangulo2 .antirrabica .vaccine {
+        position: absolute;
+        width: 48px;
+        height: 40px;
+        right: 369px;
+        top: -11px; }
+
+.vacunas__container .margin__col__4 {
+  position: absolute;
+  width: 552px;
+  height: 416px;
+  left: 730px;
+  top: 816px;
+  background: #FDE8D0;
+  border-radius: 30px; }
+  .vacunas__container .margin__col__4 .rectangulo3cat {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 55px;
+    top: 40px; }
+  .vacunas__container .margin__col__4 .rectangulo3parrafo {
+    position: absolute;
+    width: 334px;
+    height: 80px;
+    left: 160px;
+    top: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #A17A9B; }
+  .vacunas__container .margin__col__4 .triple {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    list-style: none;
+    position: absolute;
+    top: 144px;
+    left: 59px; }
+  .vacunas__container .margin__col__4 .leucemia {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    list-style: none;
+    position: absolute;
+    top: 192px;
+    left: 59px; }
+  .vacunas__container .margin__col__4 .antirrabica {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    list-style: none;
+    position: absolute;
+    top: 240px;
+    left: 59px; }
 
 .vaccine {
   width: 48px;
@@ -822,12 +824,7 @@ body {
     order: 1;
     flex-grow: 0; }
   .footervacc .footer_redes_img {
-    width: 156px;
-    height: 42px;
-    /* Inside auto layout */
-    flex: none;
-    order: 2;
-    flex-grow: 0; }
+    height: 42px; }
 
 /* end  info Util */
 .footer {

@@ -120,7 +120,6 @@
 
 /* Vacunas  page */
 .vacunas__container{
-    margin-left: 1000px;
     .vacunas__title{
         position: absolute;
         width: 1120px;
@@ -399,15 +398,7 @@
         flex-grow: 0;
     }
     .footer_redes_img{
-        width: 156px;
         height: 42px;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 2;
-        flex-grow: 0;
     }
 }
 /* end  info Util */
