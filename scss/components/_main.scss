@@ -324,7 +324,29 @@ $color5: #262626;
     // background-color: aqua;
 }
 } 
-
+.cbu{
+  color: #A17A9B;
+}
+.css-button-shadow-border {
+  width: 268px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  line-height: 200%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  margin: 1%;
+  box-shadow: -3px 3px 4px #00000020;
+  background: #A17A9B;
+  &:active {
+    top: 1.5px;
+  }
+  }
 }
 
 /* Sumate al equipo */

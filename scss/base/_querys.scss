@@ -1,5 +1,9 @@
 //versión mobile
 @media  screen and (max-width: 767px) {
+    html, body {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
     .navbar{
         width: 100%;
         z-index: 1;
@@ -522,7 +526,503 @@
         }
     }
     /* end  vacunas */
+    /* CASTRAR  SECCION */
+    .castraciones__container{
+        display: none;
+    }
+    .castraciones__container__mobile{
+        .titulo__castraciones{
+            position: absolute;
+            width: 327px;
+            height: 96px;
+            left: 16px;
+            top: 104px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+
+            color: #A17A9B;
+        }
+        .img__castraciones{
+            position: absolute;
+            width: 328px;
+            height: 328px;
+            left: 16px;
+            top: 208px;
+        }
+        .mitos{
+            position: absolute;
+            width: 328px;
+            height: 72px;
+            left: 16px;
+            top: 568px;
+
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+            letter-spacing: -0.01em;
+
+            color: #A17A9B;
+        }
+        .iconmitos1{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 16px;
+            top: 664px;
+        }
+        .parraf__mitos__1{
+            position: absolute;
+            width: 296px;
+            height: 48px;
+            left: 48px;
+            top: 656px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.01em;
+
+            color: #000000;
+        }
+        .iconmitos2{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 16px;
+            top: 728px;
+        }
+        .parraf__mitos__2{
+            position: absolute;
+            width: 296px;
+            height: 48px;
+            left: 48px;
+            top: 720px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.01em;
+
+            color: #000000;
+        }
+        .iconmitos3{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 16px;
+            top: 792px;
+        }
+        .parraf__mitos__3{
+            position: absolute;
+            width: 296px;
+            height: 48px;
+            left: 48px;
+            top: 784px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.01em;
+
+            color: #000000;
+        }
+        .rectangulo{
+            position: absolute;
+            width: 328px;
+            height: 248px;
+            left: 16px;
+            top: 872px;
+
+            background: #A17A9B;
+            border-radius: 30px;
+            .parrafo__rectangulo{
+                position: absolute;
+                width: 296px;
+                height: 192px;
+                left: 30px;
+                top: 18px;
+
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+
+                color: #FFFFFF;
+            }
+        }
+        .titulo__ventajas{
+            position: absolute;
+            width: 327px;
+            height: 64px;
+            left: 17px;
+            top: 1152px;
+
+
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 36px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #A17A9B;
+        }
+        .sub__machos{
+            position: absolute;
+            width: 328px;
+            height: 32px;
+            left: 16px;
+            top: 1232px;
+
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 24px;
+
+            display: flex;
+            align-items: center;
+            color: #A17A9B;
+        }
+
+        .iconmachos1{
+            position: absolute;
+            width: 24px;
+            height: 27px;
+            left: 16px;
+            top: 1280px;
+        }
+        .parraf__machos1{
+            position: absolute;
+            width: 288px;
+            height: 607px;
+            left: 56px;
+            top: 1281px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .iconmachos2{ 
+            position: absolute;
+            width: 24px;
+            height: 27px;
+            left: 16px;
+            top: 1384px;
+        }
+        .parraf__machos2{
+            position: absolute;
+            width: 288px;
+            height: 607px;
+            left: 56px;
+            top: 1385px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .iconmachos3{
+            position: absolute;
+            width: 24px;
+            height: 27px;
+            left: 16px;
+            top: 1480px;
+        }
+        .parraf__machos3{
+            position: absolute;
+            width: 288px;
+            height: 607px;
+            left: 56px;
+            top: 1481px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .iconmachos4{
+            position: absolute;
+            width: 24px;
+            height: 27px;
+            left: 16px;
+            top: 1576px;
+        }
+        .parraf__machos4{
+            position: absolute;
+            width: 288px;
+            height: 607px;
+            left: 56px;
+            top: 1577px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .iconmachos5{
+            position: absolute;
+            width: 24px;
+            height: 27px;
+            left: 16px;
+            top: 1624px;
+        }
+        .parraf__machos5{
+            position: absolute;
+            width: 288px;
+            height: 607px;
+            left: 56px;
+            top: 1625px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .iconmachos6{
+            position: absolute;
+            width: 24px;
+            height: 27px;
+            left: 16px;
+            top: 1696px;
+        }
+        .parraf__machos6{
+            position: absolute;
+            width: 288px;
+            height: 607px;
+            left: 56px;
+            top: 1697px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .iconmachos7{
+            position: absolute;
+            width: 24px;
+            height: 27px;
+            left: 16px;
+            top: 1816px;
+        }
+        .parraf__machos7{
+            position: absolute;
+            width: 288px;
+            height: 607px;
+            left: 56px;
+            top: 1817px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .sub__hembras{
+            position: absolute;
+            width: 328px;
+            height: 32px;
+            left: 16px;
+            top: 1912px;
+
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 24px;
+
+            display: flex;
+            align-items: center;
+
+            color: #A17A9B;
+        }
+
+        .iconhembras1{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 16px;
+            top: 1960px;
+        }
+        .parraf__hembras1{
+            position: absolute;
+            width: 296px;
+            height: 464px;
+            left: 48px;
+            top: 1961px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+
+        }
+
+        .iconhembras2{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 16px;
+            top: 2056px;
+        }
+        .parraf__hembras2{
+            position: absolute;
+            width: 296px;
+            height: 464px;
+            left: 48px;
+            top: 2057px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+
+        }
+
+        .iconhembras3{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 16px;
+            top: 2152px;
+        }
+        .parraf__hembras3{
+            position: absolute;
+            width: 296px;
+            height: 464px;
+            left: 48px;
+            top: 2153px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .iconhembras4{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 16px;
+            top: 2232px;
+        }
+        .parraf__hembras4{
+            position: absolute;
+            width: 296px;
+            height: 464px;
+            left: 48px;
+            top: 2233px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        //ventajas para  la familia
+        .catsmiling{
+            position: absolute;
+            width: 328px;
+            height: 184px;
+            left: 16px;
+            top: 2448px;
+        }
+        .titulo__ventajafamilia{
+            position: absolute;
+            width: 328px;
+            height: 40px;
+            left: 16px;
+            top: 2664px;
+
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 45px;
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #779A99;
+        }
+        .parraf__ventajas{
+            position: absolute;
+            width: 328px;
+            height: 48px;
+            left: 17px;
+            top: 2712px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #779A99;
+        }
+        .cuando__hacerlo__container{
+            position: absolute;
+            width: 329px;
+            height: 272px;
+            left: 16px;
+            top: 2840px;
+            .cuandohacerlo{
+                width: 328px;
+                height: 40px;
+    
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 45px;
+    
+                display: flex;
+                align-items: center;
+    
+                color: #A17A9B;
+            }
+            p{
+            font-weight: 400;
+            font-size: 16px;
+            }
+            
+        }
+        
+        
+    }
+
+    /* END CASTRAR */
     /* FOOTER */
+    .footercast{
+        position: absolute;
+        width: 100%;
+        height: 64px;
+        left: 0px;
+        top: 3190px;
+        background: #262626;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+        .footer__layout{
+            width: 327px;
+            height: 32px;
+            .footer_logo{
+                position: absolute;
+                width: 54px;
+                top: 15px;
+                left: 16px;
+            }
+            .footer_texto{
+                display: none;
+            }
+            .footer_redes_img{
+                position: absolute;
+                left: 376px;
+                top: 13px;
+                .mail{
+                    display: none;
+                }
+                .fb{
+                    display: none;
+                }
+            }
+        }
+    }
     .footerresc{
         position: absolute;
         width: 100%;
@@ -559,7 +1059,7 @@
     }
     .footervacc{
         top: 1827px;
-        width: 360px;
+        width: 100%;
         height: 64px;
         left: 0px;
 
@@ -581,7 +1081,7 @@
             }
             .footer_redes_img{
                 position: absolute;
-                left: 292px;
+                left: 369px;
                 .mail{
                     display: none;
                 }
