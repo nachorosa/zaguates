@@ -49,42 +49,56 @@
     }
     /* Banner section */
     .banner{
-    background-image: url(../img/banner/portadaMobile.png);
+    background-image: url(../multimedia/img/banner/bannermobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 544px;
     top: 64px;
+    .sub__mobile{
+        width: 233px;
+        height: 80px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+        padding-top: 5%;
+        padding-left: 15%;
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        
+        color: #FFFFFF;
+
+        display: block;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
   }
-  .banner-body{
-    background: linear-gradient(#21252900,#000000);
-    height: 240px;
+  .shadow-bottom{
+    position: absolute;
     width: 100%;
+    height: 232px;
     left: 0px;
     top: 368px;
-    border-radius: 0px;
-  }
-  .banner-texto {
-    padding-top: 5%;
-    padding-left: 15%;
-    color: white;
-    width: 50%;
-   
+
+    background: linear-gradient(180deg, rgba(33, 37, 41, 0) 0%, #000000 100%);
   }
   .banner-texto h2 {
+    width: 251px;
+    height: 155px;
     font-weight: bolder;
-    margin-bottom: 5%;
+    line-height: 38px;
     font-size: 36px;
-    transform: translateY(-80px);
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
   .banner-texto{
     p{
         display: none;
-        font-size: nth($fuentes, 5);
     }
   }
     /* Banner section END */
@@ -124,35 +138,12 @@
     /* About us END */
     /* Adoptá */
     .adoptar{
-        background: url('../multimedia/img/adopcionesMobile.png') no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 1000px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
         .razones__para__adoptar{
             display: none;
         }
-        .adoptar-texto{
-            background-color: transparent;
-            border: none;
-            padding: 0;
-            margin-left: 5%;
-            display: block;
-            
-            h2{
-                text-align: center;
-                line-height: 100%;
-                margin-left: 0%;
-            }
-            p{
-                text-align: left;
-            }
-        }
+        
     }
-    /* Adoptar */
+    /*END Adoptar */
     .donar{
         display: flex;
         flex-direction: column-reverse;
@@ -163,30 +154,95 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            .texto__mobile{
+            .titulo__mobile{
                 h2{
-                    color: #A17A9B;
-                    font-size: 32px;
+                    width: 505px;
+                    height: 64px;
+                    padding-bottom: 30px;
+
                     font-weight: 800;
+                    font-size: 32px;
                     line-height: 36px;
+                    
+                    display: flex;
+                    align-items: center;
                     text-align: center;
-                }
-                p{
-                    font-size: 16px;
-                    line-height: 24px;
-                    text-align: center;
-                    font-weight: 400;
+                    
+                    color: #A17A9B;
                 }
             }
             .css-button-shadow-border{
                 width: 328px;
-                background-color: #FDE8D0;
-                color: #000000;
+                background-color: #5DC3C1;
+                color: #fff;
+                &:hover {
+                    background-color: #E7E269;
+
+                    color: #000000;
+                }
+            }
+            .donaciones__foto{
+                background: url(../multimedia/img/donaciones/donarMobile.png);
+                width: 327px;
+                height: 303px;
+
+                border-radius: 20px;
+            }
+            .parrafo{
+                width: 311px;
+                height: 96px;
+                padding-top: 30px;
+
+                font-size: 16px;
+                line-height: 20px;
+
+                text-align: center;
+            }
+            .donaciones__mercadopago{
+                padding-top: 64px;
+                padding-bottom: 20px;
+                p{
+                    padding-left: 36px;
+                }
+                .css-button-shadow-border {
+                    width: 101px;
+                    height: 38.43px;
+                    color: #fff;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    position: relative;
+                    display: inline-block;
+                    outline: none;
+                    border-radius: 8px;
+                    border: none;
+                    margin: 1%;
+                    box-shadow: -3px 3px 4px #00000020;
+                    background: #5DC3C1;
+                    &:hover {
+                      background-color: #E7E269;
+
+                      color: #000000;
+                    }
+                    &:active {
+                      top: 1.5px;
+                    }
+                }
+
+                .grid__botones{
+                    display: grid;
+	                grid-template-columns: 1fr 1fr 1fr;
+	                grid-column-gap: 12.4px;
+	                grid-row-gap: 17.7px;
+                }
+            }
+            .donaciones__paypal{
+                padding-top: 20px;
             }
         }
         .donar-texto{
             display: none;
         }
+        
         .donar-imagen{
             display: none;
         }
@@ -194,6 +250,71 @@
     /* transferencia section */
     .transferencia{
         display: none;
+    }
+    .transferencia__mobile{
+        display: block;
+        width: 458px;
+        height: 501px;
+
+        background: rgba(253, 232, 208, 0.5);
+        .parrafos{
+            padding-left: 77px;
+            padding-top: 40px;
+        
+            .parrafo__1{
+                width: 233px;
+                height: 88px;
+                font-size: 16px;
+                line-height: 20px;
+
+                text-align: center;
+            }
+            .parrafo__2{
+                width: 324px;
+                height: 93px;
+
+                font-size: 16px;
+                line-height: 25px;
+
+                text-align: center;
+                span{
+                    font-weight: 700;
+                    color: #5DC3C1;;
+                }
+            }
+            .parrafo__3{
+                width: 250px;
+                height: 134px;
+
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+
+                text-align: center;
+            }
+            .css-button-shadow-border {
+                width: 328px;
+                height: 39.99px;
+                color: #fff;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                position: relative;
+                display: inline-block;
+                outline: none;
+                border-radius: 8px;
+                border: none;
+                margin: 1%;
+                box-shadow: -3px 3px 4px #00000020;
+                background: #5DC3C1;
+                &:hover {
+                  background-color: #E7E269;
+                  color: #000000;
+                }
+                &:active {
+                  top: 1.5px;
+                }
+            }
+        }
     }
     /* Sumate al equipo section */
     .section__equipo{
@@ -1092,7 +1213,7 @@
         }
     }
     /* END FOOTER */
-    }
+    
     
 
     @media screen and (min-width: 1388px){
@@ -1122,3 +1243,4 @@
     }
     /* END VACUNAS SECTION */
 }    
+}
