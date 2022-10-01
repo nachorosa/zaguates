@@ -168,6 +168,63 @@
         margin-bottom: 64px;
     }
 }
+.castraciones__container__mobile{
+    display:none;
+}
+.footercast{
+    position: absolute;
+    width: 100%;
+    height: 171px;
+    left: 0px;
+    top: 2063px;
+
+    background-color: #262626;
+    .footer__layout{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        gap: 301px;
+    
+        position: absolute;
+        width: 80%;
+        height: 67.59px;
+
+        top: 52px;
+        left: 165px;
+    }
+    .footer_logo{
+        width: 96px;
+        height: 67.59px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .footer_texto{
+        width: 167px;
+        height: 16px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #F3F3F3;
+
+        flex: none;
+        
+        flex-grow: 0;
+    }
+    .footer_redes_img{
+        height: 42px;
+    }
+}
 /* end castraciones */
 
 

@@ -120,7 +120,7 @@ body {
 
 .nosotros {
   background-color: white;
-  height: 824px;
+  height: 850px;
   width: 100%;
   display: grid;
   grid-template-rows: 1fr;
@@ -145,8 +145,8 @@ body {
       letter-spacing: 0em;
       text-align: left; }
     .nosotros-texto p {
-      width: 456px;
-      height: 402px;
+      width: 332px;
+      height: 454px;
       font-weight: 400;
       font-size: 20px;
       line-height: 24px;
@@ -534,15 +534,21 @@ body {
       padding-bottom: 15%; } }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  /* Sumate al equipo */
   .section__equipo {
-    height: 1765px;
-    /* section cards */ }
+    height: 2510px; }
     .section__equipo .texto__equipo h2 {
       height: 20px;
       font-size: 32px; }
     .section__equipo .section__cards {
-      grid-template-columns: 1fr; } }
+      grid-template-columns: 1fr; }
+      .section__equipo .section__cards .card_container .card-title {
+        transform: translateY(100%); }
+      .section__equipo .section__cards .card_container .card-text {
+        display: none; }
+      .section__equipo .section__cards .card_container:hover .card-title {
+        transform: translateY(100%); }
+      .section__equipo .section__cards .card_container .card-img {
+        filter: brightness(70%); } }
 
 /* Info util section */
 /* seccion rescatar */
@@ -683,6 +689,50 @@ body {
   margin-left: 160px;
   margin-right: 160px;
   margin-bottom: 64px; }
+
+.castraciones__container__mobile {
+  display: none; }
+
+.footercast {
+  position: absolute;
+  width: 100%;
+  height: 171px;
+  left: 0px;
+  top: 2063px;
+  background-color: #262626; }
+  .footercast .footer__layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 301px;
+    position: absolute;
+    width: 80%;
+    height: 67.59px;
+    top: 52px;
+    left: 165px; }
+  .footercast .footer_logo {
+    width: 96px;
+    height: 67.59px;
+    flex: none;
+    order: 0;
+    flex-grow: 0; }
+  .footercast .footer_texto {
+    width: 167px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F3F3F3;
+    flex: none;
+    flex-grow: 0; }
+  .footercast .footer_redes_img {
+    height: 42px; }
 
 /* end castraciones */
 /* Vacunas  page */
@@ -945,7 +995,7 @@ body {
       margin: 8px; }
 
 /* querys */
-@media screen and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   html, body {
     max-width: 100% !important;
     overflow-x: hidden !important; }
@@ -979,7 +1029,7 @@ body {
       top: -187px; }
   /* Banner section */
   .banner {
-    background-image: url(../multimedia/img/banner/bannermobile.png);
+    background: linear-gradient(180deg, rgba(33, 37, 41, 0) 0%, #000000 100%), url(../multimedia/img/banner/bannermobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -1004,8 +1054,7 @@ body {
     width: 100%;
     height: 232px;
     left: 0px;
-    top: 368px;
-    background: linear-gradient(180deg, rgba(33, 37, 41, 0) 0%, #000000 100%); }
+    top: 368px; }
   .banner-texto h2 {
     width: 251px;
     height: 155px;
@@ -1023,7 +1072,7 @@ body {
     display: block;
     background: url("../multimedia/img/nosotros/donacionesMobile.png");
     background-size: contain;
-    height: 700px;
+    height: 850px;
     width: 100%;
     left: 0px;
     top: 608px;
@@ -1106,7 +1155,8 @@ body {
           border: none;
           margin: 1%;
           box-shadow: -3px 3px 4px #00000020;
-          background: #5DC3C1; }
+          background: #5DC3C1;
+          font-weight: 600; }
           .donar .mobile__version .donaciones__mercadopago .css-button-shadow-border:hover {
             background-color: #E7E269;
             color: #000000; }
@@ -1132,19 +1182,21 @@ body {
     height: 501px;
     background: rgba(253, 232, 208, 0.5); }
     .transferencia__mobile .parrafos {
-      padding-left: 77px;
+      padding-left: 51px;
       padding-top: 40px; }
       .transferencia__mobile .parrafos .parrafo__1 {
         width: 233px;
         height: 88px;
         font-size: 16px;
         line-height: 20px;
+        padding-left: 19px;
         text-align: center; }
       .transferencia__mobile .parrafos .parrafo__2 {
-        width: 324px;
+        width: 328px;
         height: 93px;
         font-size: 16px;
         line-height: 25px;
+        padding-right: 71px;
         text-align: center; }
         .transferencia__mobile .parrafos .parrafo__2 span {
           font-weight: 700;
@@ -1156,25 +1208,31 @@ body {
         font-size: 16px;
         line-height: 20px;
         text-align: center; }
-      .transferencia__mobile .parrafos .css-button-shadow-border {
-        width: 328px;
-        height: 39.99px;
-        color: #fff;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: relative;
-        display: inline-block;
-        outline: none;
-        border-radius: 8px;
-        border: none;
-        margin: 1%;
-        box-shadow: -3px 3px 4px #00000020;
-        background: #5DC3C1; }
-        .transferencia__mobile .parrafos .css-button-shadow-border:hover {
-          background-color: #E7E269;
-          color: #000000; }
-        .transferencia__mobile .parrafos .css-button-shadow-border:active {
-          top: 1.5px; }
+      .transferencia__mobile .parrafos .boton {
+        position: absolute;
+        top: 4639px;
+        left: 11px; }
+        .transferencia__mobile .parrafos .boton .css-button-shadow-border {
+          width: 328px;
+          height: 39.99px;
+          color: #fff;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          position: relative;
+          display: inline-block;
+          outline: none;
+          border-radius: 8px;
+          border: none;
+          margin: 1%;
+          box-shadow: -3px 3px 4px #00000020;
+          background: #5DC3C1;
+          line-height: 40px;
+          font-weight: 600; }
+          .transferencia__mobile .parrafos .boton .css-button-shadow-border:hover {
+            background-color: #E7E269;
+            color: #000000; }
+          .transferencia__mobile .parrafos .boton .css-button-shadow-border:active {
+            top: 1.5px; }
   /* Sumate al equipo section */
   .section__equipo .texto__equipo {
     display: flex;
@@ -1182,6 +1240,8 @@ body {
     align-items: center; }
     .section__equipo .texto__equipo p {
       margin: 10%; }
+  .section__equipo .section__cards .card_container .css-button-shadow-border {
+    width: 100%; }
   /* Info util */
   /* RESCATAR SECTION */
   .rescatar__container .dotted {
@@ -1422,361 +1482,363 @@ body {
   /* CASTRAR  SECCION */
   .castraciones__container {
     display: none; }
-  .castraciones__container__mobile .titulo__castraciones {
-    position: absolute;
-    width: 327px;
-    height: 96px;
-    left: 16px;
-    top: 104px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 48px;
-    text-align: center;
-    color: #A17A9B; }
-  .castraciones__container__mobile .img__castraciones {
-    position: absolute;
-    width: 328px;
-    height: 328px;
-    left: 16px;
-    top: 208px; }
-  .castraciones__container__mobile .mitos {
-    position: absolute;
-    width: 328px;
-    height: 72px;
-    left: 16px;
-    top: 568px;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    letter-spacing: -0.01em;
-    color: #A17A9B; }
-  .castraciones__container__mobile .iconmitos1 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 16px;
-    top: 664px; }
-  .castraciones__container__mobile .parraf__mitos__1 {
-    position: absolute;
-    width: 296px;
-    height: 48px;
-    left: 48px;
-    top: 656px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.01em;
-    color: #000000; }
-  .castraciones__container__mobile .iconmitos2 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 16px;
-    top: 728px; }
-  .castraciones__container__mobile .parraf__mitos__2 {
-    position: absolute;
-    width: 296px;
-    height: 48px;
-    left: 48px;
-    top: 720px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.01em;
-    color: #000000; }
-  .castraciones__container__mobile .iconmitos3 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 16px;
-    top: 792px; }
-  .castraciones__container__mobile .parraf__mitos__3 {
-    position: absolute;
-    width: 296px;
-    height: 48px;
-    left: 48px;
-    top: 784px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.01em;
-    color: #000000; }
-  .castraciones__container__mobile .rectangulo {
-    position: absolute;
-    width: 328px;
-    height: 248px;
-    left: 16px;
-    top: 872px;
-    background: #A17A9B;
-    border-radius: 30px; }
-    .castraciones__container__mobile .rectangulo .parrafo__rectangulo {
+  .castraciones__container__mobile {
+    display: block; }
+    .castraciones__container__mobile .titulo__castraciones {
+      position: absolute;
+      width: 327px;
+      height: 96px;
+      left: 16px;
+      top: 104px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 48px;
+      text-align: center;
+      color: #A17A9B; }
+    .castraciones__container__mobile .img__castraciones {
+      position: absolute;
+      width: 328px;
+      height: 328px;
+      left: 16px;
+      top: 208px; }
+    .castraciones__container__mobile .mitos {
+      position: absolute;
+      width: 328px;
+      height: 72px;
+      left: 16px;
+      top: 568px;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      letter-spacing: -0.01em;
+      color: #A17A9B; }
+    .castraciones__container__mobile .iconmitos1 {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 16px;
+      top: 664px; }
+    .castraciones__container__mobile .parraf__mitos__1 {
       position: absolute;
       width: 296px;
-      height: 192px;
-      left: 30px;
-      top: 18px;
-      font-style: normal;
-      font-weight: 600;
+      height: 48px;
+      left: 48px;
+      top: 656px;
+      font-weight: 400;
       font-size: 16px;
       line-height: 24px;
-      color: #FFFFFF; }
-  .castraciones__container__mobile .titulo__ventajas {
-    position: absolute;
-    width: 327px;
-    height: 64px;
-    left: 17px;
-    top: 1152px;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #A17A9B; }
-  .castraciones__container__mobile .sub__machos {
-    position: absolute;
-    width: 328px;
-    height: 32px;
-    left: 16px;
-    top: 1232px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #A17A9B; }
-  .castraciones__container__mobile .iconmachos1 {
-    position: absolute;
-    width: 24px;
-    height: 27px;
-    left: 16px;
-    top: 1280px; }
-  .castraciones__container__mobile .parraf__machos1 {
-    position: absolute;
-    width: 288px;
-    height: 607px;
-    left: 56px;
-    top: 1281px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; }
-  .castraciones__container__mobile .iconmachos2 {
-    position: absolute;
-    width: 24px;
-    height: 27px;
-    left: 16px;
-    top: 1384px; }
-  .castraciones__container__mobile .parraf__machos2 {
-    position: absolute;
-    width: 288px;
-    height: 607px;
-    left: 56px;
-    top: 1385px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; }
-  .castraciones__container__mobile .iconmachos3 {
-    position: absolute;
-    width: 24px;
-    height: 27px;
-    left: 16px;
-    top: 1480px; }
-  .castraciones__container__mobile .parraf__machos3 {
-    position: absolute;
-    width: 288px;
-    height: 607px;
-    left: 56px;
-    top: 1481px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; }
-  .castraciones__container__mobile .iconmachos4 {
-    position: absolute;
-    width: 24px;
-    height: 27px;
-    left: 16px;
-    top: 1576px; }
-  .castraciones__container__mobile .parraf__machos4 {
-    position: absolute;
-    width: 288px;
-    height: 607px;
-    left: 56px;
-    top: 1577px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; }
-  .castraciones__container__mobile .iconmachos5 {
-    position: absolute;
-    width: 24px;
-    height: 27px;
-    left: 16px;
-    top: 1624px; }
-  .castraciones__container__mobile .parraf__machos5 {
-    position: absolute;
-    width: 288px;
-    height: 607px;
-    left: 56px;
-    top: 1625px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; }
-  .castraciones__container__mobile .iconmachos6 {
-    position: absolute;
-    width: 24px;
-    height: 27px;
-    left: 16px;
-    top: 1696px; }
-  .castraciones__container__mobile .parraf__machos6 {
-    position: absolute;
-    width: 288px;
-    height: 607px;
-    left: 56px;
-    top: 1697px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; }
-  .castraciones__container__mobile .iconmachos7 {
-    position: absolute;
-    width: 24px;
-    height: 27px;
-    left: 16px;
-    top: 1816px; }
-  .castraciones__container__mobile .parraf__machos7 {
-    position: absolute;
-    width: 288px;
-    height: 607px;
-    left: 56px;
-    top: 1817px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; }
-  .castraciones__container__mobile .sub__hembras {
-    position: absolute;
-    width: 328px;
-    height: 32px;
-    left: 16px;
-    top: 1912px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #A17A9B; }
-  .castraciones__container__mobile .iconhembras1 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 16px;
-    top: 1960px; }
-  .castraciones__container__mobile .parraf__hembras1 {
-    position: absolute;
-    width: 296px;
-    height: 464px;
-    left: 48px;
-    top: 1961px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; }
-  .castraciones__container__mobile .iconhembras2 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 16px;
-    top: 2056px; }
-  .castraciones__container__mobile .parraf__hembras2 {
-    position: absolute;
-    width: 296px;
-    height: 464px;
-    left: 48px;
-    top: 2057px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; }
-  .castraciones__container__mobile .iconhembras3 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 16px;
-    top: 2152px; }
-  .castraciones__container__mobile .parraf__hembras3 {
-    position: absolute;
-    width: 296px;
-    height: 464px;
-    left: 48px;
-    top: 2153px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; }
-  .castraciones__container__mobile .iconhembras4 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 16px;
-    top: 2232px; }
-  .castraciones__container__mobile .parraf__hembras4 {
-    position: absolute;
-    width: 296px;
-    height: 464px;
-    left: 48px;
-    top: 2233px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; }
-  .castraciones__container__mobile .catsmiling {
-    position: absolute;
-    width: 328px;
-    height: 184px;
-    left: 16px;
-    top: 2448px; }
-  .castraciones__container__mobile .titulo__ventajafamilia {
-    position: absolute;
-    width: 328px;
-    height: 40px;
-    left: 16px;
-    top: 2664px;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #779A99; }
-  .castraciones__container__mobile .parraf__ventajas {
-    position: absolute;
-    width: 328px;
-    height: 48px;
-    left: 17px;
-    top: 2712px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #779A99; }
-  .castraciones__container__mobile .cuando__hacerlo__container {
-    position: absolute;
-    width: 329px;
-    height: 272px;
-    left: 16px;
-    top: 2840px; }
-    .castraciones__container__mobile .cuando__hacerlo__container .cuandohacerlo {
+      letter-spacing: -0.01em;
+      color: #000000; }
+    .castraciones__container__mobile .iconmitos2 {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 16px;
+      top: 728px; }
+    .castraciones__container__mobile .parraf__mitos__2 {
+      position: absolute;
+      width: 296px;
+      height: 48px;
+      left: 48px;
+      top: 720px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      color: #000000; }
+    .castraciones__container__mobile .iconmitos3 {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 16px;
+      top: 792px; }
+    .castraciones__container__mobile .parraf__mitos__3 {
+      position: absolute;
+      width: 296px;
+      height: 48px;
+      left: 48px;
+      top: 784px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      color: #000000; }
+    .castraciones__container__mobile .rectangulo {
+      position: absolute;
+      width: 328px;
+      height: 248px;
+      left: 16px;
+      top: 872px;
+      background: #A17A9B;
+      border-radius: 30px; }
+      .castraciones__container__mobile .rectangulo .parrafo__rectangulo {
+        position: absolute;
+        width: 296px;
+        height: 192px;
+        left: 30px;
+        top: 18px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF; }
+    .castraciones__container__mobile .titulo__ventajas {
+      position: absolute;
+      width: 327px;
+      height: 64px;
+      left: 17px;
+      top: 1152px;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 36px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #A17A9B; }
+    .castraciones__container__mobile .sub__machos {
+      position: absolute;
+      width: 328px;
+      height: 32px;
+      left: 16px;
+      top: 1232px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      color: #A17A9B; }
+    .castraciones__container__mobile .iconmachos1 {
+      position: absolute;
+      width: 24px;
+      height: 27px;
+      left: 16px;
+      top: 1280px; }
+    .castraciones__container__mobile .parraf__machos1 {
+      position: absolute;
+      width: 288px;
+      height: 607px;
+      left: 56px;
+      top: 1281px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px; }
+    .castraciones__container__mobile .iconmachos2 {
+      position: absolute;
+      width: 24px;
+      height: 27px;
+      left: 16px;
+      top: 1384px; }
+    .castraciones__container__mobile .parraf__machos2 {
+      position: absolute;
+      width: 288px;
+      height: 607px;
+      left: 56px;
+      top: 1385px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px; }
+    .castraciones__container__mobile .iconmachos3 {
+      position: absolute;
+      width: 24px;
+      height: 27px;
+      left: 16px;
+      top: 1480px; }
+    .castraciones__container__mobile .parraf__machos3 {
+      position: absolute;
+      width: 288px;
+      height: 607px;
+      left: 56px;
+      top: 1481px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px; }
+    .castraciones__container__mobile .iconmachos4 {
+      position: absolute;
+      width: 24px;
+      height: 27px;
+      left: 16px;
+      top: 1576px; }
+    .castraciones__container__mobile .parraf__machos4 {
+      position: absolute;
+      width: 288px;
+      height: 607px;
+      left: 56px;
+      top: 1577px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px; }
+    .castraciones__container__mobile .iconmachos5 {
+      position: absolute;
+      width: 24px;
+      height: 27px;
+      left: 16px;
+      top: 1624px; }
+    .castraciones__container__mobile .parraf__machos5 {
+      position: absolute;
+      width: 288px;
+      height: 607px;
+      left: 56px;
+      top: 1625px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px; }
+    .castraciones__container__mobile .iconmachos6 {
+      position: absolute;
+      width: 24px;
+      height: 27px;
+      left: 16px;
+      top: 1696px; }
+    .castraciones__container__mobile .parraf__machos6 {
+      position: absolute;
+      width: 288px;
+      height: 607px;
+      left: 56px;
+      top: 1697px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px; }
+    .castraciones__container__mobile .iconmachos7 {
+      position: absolute;
+      width: 24px;
+      height: 27px;
+      left: 16px;
+      top: 1816px; }
+    .castraciones__container__mobile .parraf__machos7 {
+      position: absolute;
+      width: 288px;
+      height: 607px;
+      left: 56px;
+      top: 1817px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px; }
+    .castraciones__container__mobile .sub__hembras {
+      position: absolute;
+      width: 328px;
+      height: 32px;
+      left: 16px;
+      top: 1912px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      color: #A17A9B; }
+    .castraciones__container__mobile .iconhembras1 {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 16px;
+      top: 1960px; }
+    .castraciones__container__mobile .parraf__hembras1 {
+      position: absolute;
+      width: 296px;
+      height: 464px;
+      left: 48px;
+      top: 1961px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px; }
+    .castraciones__container__mobile .iconhembras2 {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 16px;
+      top: 2056px; }
+    .castraciones__container__mobile .parraf__hembras2 {
+      position: absolute;
+      width: 296px;
+      height: 464px;
+      left: 48px;
+      top: 2057px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px; }
+    .castraciones__container__mobile .iconhembras3 {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 16px;
+      top: 2152px; }
+    .castraciones__container__mobile .parraf__hembras3 {
+      position: absolute;
+      width: 296px;
+      height: 464px;
+      left: 48px;
+      top: 2153px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px; }
+    .castraciones__container__mobile .iconhembras4 {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 16px;
+      top: 2232px; }
+    .castraciones__container__mobile .parraf__hembras4 {
+      position: absolute;
+      width: 296px;
+      height: 464px;
+      left: 48px;
+      top: 2233px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px; }
+    .castraciones__container__mobile .catsmiling {
+      position: absolute;
+      width: 328px;
+      height: 184px;
+      left: 16px;
+      top: 2448px; }
+    .castraciones__container__mobile .titulo__ventajafamilia {
+      position: absolute;
       width: 328px;
       height: 40px;
+      left: 16px;
+      top: 2664px;
       font-weight: 900;
       font-size: 24px;
       line-height: 45px;
       display: flex;
       align-items: center;
-      color: #A17A9B; }
-    .castraciones__container__mobile .cuando__hacerlo__container p {
+      text-align: center;
+      color: #779A99; }
+    .castraciones__container__mobile .parraf__ventajas {
+      position: absolute;
+      width: 328px;
+      height: 48px;
+      left: 17px;
+      top: 2712px;
       font-weight: 400;
-      font-size: 16px; }
+      font-size: 16px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #779A99; }
+    .castraciones__container__mobile .cuando__hacerlo__container {
+      position: absolute;
+      width: 329px;
+      height: 272px;
+      left: 16px;
+      top: 2840px; }
+      .castraciones__container__mobile .cuando__hacerlo__container .cuandohacerlo {
+        width: 328px;
+        height: 40px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 45px;
+        display: flex;
+        align-items: center;
+        color: #A17A9B; }
+      .castraciones__container__mobile .cuando__hacerlo__container p {
+        font-weight: 400;
+        font-size: 16px; }
   /* END CASTRAR */
   /* FOOTER */
   .footercast {
@@ -1858,9 +1920,11 @@ body {
           display: none; }
         .footervacc .footer__layout .footer_redes_img .fb {
           display: none; }
-  /* END FOOTER */ }
+  /* END FOOTER */
+  #myBtn {
+    margin: 30px; } }
 
-@media screen and (max-width: 767px) and (min-width: 1388px) {
+@media screen and (min-width: 1388px) {
   /* VACUNAS SECTION */
   .vacunas__container .vacunas__title {
     left: 741px; }

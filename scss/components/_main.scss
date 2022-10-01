@@ -44,7 +44,7 @@ $color5: #262626;
 
 .nosotros {
   background-color: white;
-  height: 824px;
+  height: 850px;
   width: 100%;
 
   display: grid;
@@ -77,8 +77,8 @@ $color5: #262626;
   }
 
   & p{
-    width: 456px;
-    height: 402px;
+    width: 332px;
+    height: 454px;
 
     font-weight: 400;
     font-size: 20px;
@@ -506,53 +506,6 @@ $color5: #262626;
     }
   }
 }
-// tienda
-
-// .tienda {
-//   display: grid;
-//   grid-template-columns: repeat(2, 1fr);
-//   grid-template-rows: 1fr;
-//   background: no-repeat url("../multimedia/img/tienda/backgroundTienda.png");
-//   height: 661px;
-//   width: 100%;
-//   .tienda__info{
-//     height: 208px;
-//     width: 456px;
-//     left: 161px;
-//     top: 5657px;
-//   }
-//   .img__tienda{
-//     height: 464px;
-//     width: 552px;
-//     left: 729px;
-//     top: 5565px;
-//   }
-//   .css-button-shadow-border {
-//     width: 50%;
-//     height: 40px;
-//     color: #fff;
-//     padding: 5px 10px;
-//     line-height: 200%;
-//     cursor: pointer;
-//     transition: all 0.3s ease;
-//     position: relative;
-//     display: inline-block;
-//     outline: none;
-//     border-radius: 8px;
-//     border: none;
-//     margin: 1%;
-//     box-shadow: -3px 3px 4px #00000020;
-//     background: #A17A9B;
-//     &:hover {
-//       background-color: #926f8d;
-//     }
-//     &:active {
-//       top: 1.5px;
-//     }
-//   }
-// }
-
-// tienda
 
 .tienda {
   background-image: url("../../img/fondo_tienda.png");
@@ -566,8 +519,6 @@ $color5: #262626;
   grid-template-rows: 1fr ;
   grid-template-columns: 1fr 1fr;
   align-items:center;
-  
- 
   
   .css-button-shadow-border {
     width: 100%;
@@ -687,13 +638,8 @@ $color5: #262626;
 // MOBILE - sumate al equipo
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 
-/* Sumate al equipo */
-
 .section__equipo {
-
-  height: 1765px;
-
- 
+  height: 2510px;
   .texto__equipo{
  
     h2{
@@ -702,12 +648,27 @@ $color5: #262626;
     }
  
   }
-  /* section cards */
   .section__cards{
- 
     grid-template-columns: 1fr;
- 
- 
+    .card_container{
+      .card-title{
+
+        transform: translateY(100%);
+
+      }
+      .card-text{
+        display: none;
+      }
+      &:hover{
+        .card-title{
+          transform: translateY(100%);
+        }
+    }
+    .card-img{
+      filter:  brightness(70%);
+    }
+    
+    }
   }
 }
 

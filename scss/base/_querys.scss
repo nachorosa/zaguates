@@ -1,5 +1,5 @@
 //versión mobile
-@media  screen and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
     html, body {
         max-width: 100% !important;
         overflow-x: hidden !important;
@@ -49,7 +49,8 @@
     }
     /* Banner section */
     .banner{
-    background-image: url(../multimedia/img/banner/bannermobile.png);
+    background:linear-gradient(180deg, rgba(33, 37, 41, 0) 0%, #000000 100%), url(../multimedia/img/banner/bannermobile.png);
+    
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -83,7 +84,7 @@
     left: 0px;
     top: 368px;
 
-    background: linear-gradient(180deg, rgba(33, 37, 41, 0) 0%, #000000 100%);
+    
   }
   .banner-texto h2 {
     width: 251px;
@@ -109,7 +110,7 @@
                 display: block;
                 background: url('../multimedia/img/nosotros/donacionesMobile.png');
                 background-size: contain;
-                height: 700px;
+                height: 850px;
                 width: 100%;
                 left: 0px;
                 top: 608px;
@@ -218,6 +219,7 @@
                     margin: 1%;
                     box-shadow: -3px 3px 4px #00000020;
                     background: #5DC3C1;
+                    font-weight: 600;
                     &:hover {
                       background-color: #E7E269;
 
@@ -258,7 +260,7 @@
 
         background: rgba(253, 232, 208, 0.5);
         .parrafos{
-            padding-left: 77px;
+            padding-left: 51px;
             padding-top: 40px;
         
             .parrafo__1{
@@ -266,15 +268,17 @@
                 height: 88px;
                 font-size: 16px;
                 line-height: 20px;
-
+                padding-left: 19px;
                 text-align: center;
             }
             .parrafo__2{
-                width: 324px;
+                width: 328px;
                 height: 93px;
 
                 font-size: 16px;
                 line-height: 25px;
+
+                padding-right: 71px;
 
                 text-align: center;
                 span{
@@ -292,28 +296,37 @@
 
                 text-align: center;
             }
-            .css-button-shadow-border {
-                width: 328px;
-                height: 39.99px;
-                color: #fff;
-                cursor: pointer;
-                transition: all 0.3s ease;
-                position: relative;
-                display: inline-block;
-                outline: none;
-                border-radius: 8px;
-                border: none;
-                margin: 1%;
-                box-shadow: -3px 3px 4px #00000020;
-                background: #5DC3C1;
-                &:hover {
-                  background-color: #E7E269;
-                  color: #000000;
-                }
-                &:active {
-                  top: 1.5px;
+            .boton{
+                position: absolute;
+                top: 4639px;
+                left: 11px;
+                .css-button-shadow-border {
+                    width: 328px;
+                    height: 39.99px;
+                    color: #fff;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    position: relative;
+                    display: inline-block;
+                    outline: none;
+                    border-radius: 8px;
+                    border: none;
+                    margin: 1%;
+                    box-shadow: -3px 3px 4px #00000020;
+                    background: #5DC3C1;
+                    line-height: 40px;
+                    font-weight: 600;
+                    &:hover {
+                      background-color: #E7E269;
+                      
+                      color: #000000;
+                    }
+                    &:active {
+                      top: 1.5px;
+                    }
                 }
             }
+            
         }
     }
     /* Sumate al equipo section */
@@ -326,6 +339,14 @@
                 margin: 10%;
             }
         }
+        .section__cards{
+            .card_container{
+                .css-button-shadow-border {
+                    width: 100%;
+                    }
+            }
+        }
+        
     }
 
     /* Info util */
@@ -652,6 +673,7 @@
         display: none;
     }
     .castraciones__container__mobile{
+        display: block;
         .titulo__castraciones{
             position: absolute;
             width: 327px;
@@ -1216,33 +1238,37 @@
     }
     /* END FOOTER */
     
-    
-
-    @media screen and (min-width: 1388px){
-        /* VACUNAS SECTION */
-        .vacunas__container{
-            .vacunas__title{
-                left: 741px;
-            }
-            .margin__col__1{
-                .col__1__parrafo{
-                    left: 348px;
-                    top: 331px;
-                }
-            }
-            .margin__col__2{
-                .rectangulo{
-                    left: 934px;
-                }
-            }
-            .margin__col__3{
-                left: 333px;
-            }
-            .margin__col__4{
-                left: 937px;
-            }
-        
+    #myBtn{
+        margin: 30px;
     }
-    /* END VACUNAS SECTION */
-}    
+
+ 
 }
+@media screen and (min-width: 1388px){
+    /* VACUNAS SECTION */
+    .vacunas__container{
+        .vacunas__title{
+            left: 741px;
+        }
+        .margin__col__1{
+            .col__1__parrafo{
+                left: 348px;
+                top: 331px;
+            }
+        }
+        .margin__col__2{
+            .rectangulo{
+                left: 934px;
+            }
+        }
+        .margin__col__3{
+            left: 333px;
+        }
+        .margin__col__4{
+            left: 937px;
+        }
+    
+}
+/* END VACUNAS SECTION */
+}   
+
