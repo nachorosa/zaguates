@@ -451,7 +451,7 @@ body {
       transition: all 1s ease; }
 
 .tienda {
-  background-image: url("../../img/fondo_tienda.png");
+  background-image: url("../img/fondo_tienda.png");
   height: 661px;
   width: 100%;
   background-repeat: no-repeat;
