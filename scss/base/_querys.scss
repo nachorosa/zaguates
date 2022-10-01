@@ -228,12 +228,12 @@
                     }
                 }
 
-                .grid__botones{
+            .grid__botones{
                     display: grid;
 	                grid-template-columns: 1fr 1fr 1fr;
 	                grid-column-gap: 12.4px;
 	                grid-row-gap: 17.7px;
-                }
+            }
             }
             .donaciones__paypal{
                 padding-top: 20px;
@@ -1147,7 +1147,7 @@
     .footerresc{
         position: absolute;
         width: 100%;
-        height: 64px;
+        height: 70px;
         left: 0px;
         top: 1416px;
         background: #262626;
@@ -1156,19 +1156,21 @@
         .footer__layout{
             width: 327px;
             height: 32px;
+            top: -23px;
+            left: 17px;
             .footer_logo{
                 position: absolute;
                 width: 54px;
-                top: 15px;
-                left: 16px;
+                top: 23px;
+                left: -5px;
             }
             .footer_texto{
                 display: none;
             }
             .footer_redes_img{
                 position: absolute;
-                left: 376px;
-                top: 13px;
+                left: 299px;
+                top: 35px;
                 .mail{
                     display: none;
                 }

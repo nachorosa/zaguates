@@ -565,6 +565,48 @@ body {
   margin-right: 158px;
   margin-bottom: 64px; }
 
+.footerresc {
+  position: absolute;
+  width: 100%;
+  height: 171px;
+  left: 0px;
+  top: 1304px;
+  background-color: #262626; }
+  .footerresc .footer__layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 301px;
+    position: absolute;
+    width: 80%;
+    height: 67.59px;
+    top: 52px;
+    left: 165px; }
+  .footerresc .footer_logo {
+    width: 96px;
+    height: 67.59px;
+    flex: none;
+    order: 0;
+    flex-grow: 0; }
+  .footerresc .footer_texto {
+    width: 167px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F3F3F3;
+    flex: none;
+    order: 1;
+    flex-grow: 0; }
+  .footerresc .footer_redes_img {
+    height: 42px; }
+
 /* end seccion rescatar */
 .maltrato__container .textos__maltrato h2 {
   color: #CE747A;
@@ -1766,25 +1808,27 @@ body {
   .footerresc {
     position: absolute;
     width: 100%;
-    height: 64px;
+    height: 70px;
     left: 0px;
     top: 1416px;
     background: #262626;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
     .footerresc .footer__layout {
       width: 327px;
-      height: 32px; }
+      height: 32px;
+      top: -23px;
+      left: 17px; }
       .footerresc .footer__layout .footer_logo {
         position: absolute;
         width: 54px;
-        top: 15px;
-        left: 16px; }
+        top: 23px;
+        left: -5px; }
       .footerresc .footer__layout .footer_texto {
         display: none; }
       .footerresc .footer__layout .footer_redes_img {
         position: absolute;
-        left: 376px;
-        top: 13px; }
+        left: 299px;
+        top: 35px; }
         .footerresc .footer__layout .footer_redes_img .mail {
           display: none; }
         .footerresc .footer__layout .footer_redes_img .fb {
