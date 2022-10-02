@@ -604,11 +604,12 @@ body {
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .section__equipo {
-    height: 2870px;
+    height: 100%;
   }
   .section__equipo .texto__equipo h2 {
     font-size: 32px;
     padding: 10%;
+    margin-bottom: 20%;
   }
   .section__equipo .texto__equipo p {
     padding: 1% 5%;
@@ -1489,9 +1490,10 @@ body {
   }
   .transferencia__mobile .parrafos .boton {
     position: absolute;
+    width: 40%;
   }
   .transferencia__mobile .parrafos .boton .css-button-shadow-border {
-    width: 328px;
+    width: 200%;
     height: 39.99px;
     color: #fff;
     cursor: pointer;
@@ -1501,7 +1503,6 @@ body {
     outline: none;
     border-radius: 8px;
     border: none;
-    margin: 1%;
     box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.1254901961);
     background: #5DC3C1;
     line-height: 40px;

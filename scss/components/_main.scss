@@ -595,12 +595,13 @@ $color7: #FDE8D080;
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 
 .section__equipo {
-  height: 2870px;
+  height: 100%;
   .texto__equipo{
  
     h2{
       font-size: 32px;
       padding: 10%;
+      margin-bottom: 20%;
     }
     p{
       

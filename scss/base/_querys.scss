@@ -372,9 +372,11 @@
             .boton{
                 
                 position: absolute;
+                width: 40%;
           
                 .css-button-shadow-border {
-                    width: 328px;
+                    
+                    width: 200%;
                     height: 39.99px;
                     color: #fff;
                     cursor: pointer;
@@ -384,11 +386,12 @@
                     outline: none;
                     border-radius: 8px;
                     border: none;
-                    margin: 1%;
+                    
                     box-shadow: -3px 3px 4px #00000020;
                     background: #5DC3C1;
                     line-height: 40px;
                     font-weight: 600;
+                    
                     &:hover {
                       background-color: #E7E269;
                       
