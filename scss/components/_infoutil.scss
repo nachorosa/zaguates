@@ -82,6 +82,7 @@
     }
 /* end seccion rescatar */
 .maltrato__container{
+    display: block;
     .textos__maltrato{
         h2{
             color: #CE747A;
@@ -114,6 +115,9 @@
     .maltrato__img2{
         padding-bottom: 53px;
     }
+}
+.maltrato__mobile{
+    display: none;
 }
 /* seccion maltrato */
 

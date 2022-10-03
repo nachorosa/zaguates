@@ -614,32 +614,34 @@ body {
     height: 42px; }
 
 /* end seccion rescatar */
-.maltrato__container .textos__maltrato h2 {
-  color: #CE747A;
-  font-weight: 900;
-  font-size: 64px;
-  line-height: 68px;
-  padding-top: 64px;
-  padding-left: 160px;
-  padding-right: 160px;
-  padding-bottom: 40px; }
+.maltrato__container {
+  display: block; }
+  .maltrato__container .textos__maltrato h2 {
+    color: #CE747A;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 68px;
+    padding-top: 64px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 40px; }
+  .maltrato__container .textos__maltrato p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    height: 136px;
+    left: 356px;
+    right: 356px;
+    top: 304px; }
+  .maltrato__container .maltrato__img1 {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 88px; }
+  .maltrato__container .maltrato__img2 {
+    padding-bottom: 53px; }
 
-.maltrato__container .textos__maltrato p {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  height: 136px;
-  left: 356px;
-  right: 356px;
-  top: 304px; }
-
-.maltrato__container .maltrato__img1 {
-  padding-left: 160px;
-  padding-right: 160px;
-  padding-bottom: 88px; }
-
-.maltrato__container .maltrato__img2 {
-  padding-bottom: 53px; }
+.maltrato__mobile {
+  display: none; }
 
 /* seccion maltrato */
 /* end seccion maltrato */
@@ -1839,6 +1841,145 @@ body {
       .castraciones__container__mobile .cuando__hacerlo__container p {
         font-weight: 400;
         font-size: 16px; }
+  /* Maltrato mobile */
+  .maltrato__container {
+    display: none; }
+  .maltrato__mobile {
+    display: block;
+    width: 100%; }
+    .maltrato__mobile h2 {
+      position: absolute;
+      width: 336px;
+      height: 88px;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 48px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #CE747A; }
+    .maltrato__mobile .titulo {
+      left: 16px;
+      top: 104px; }
+      .maltrato__mobile .titulo-comodenunciar {
+        position: absolute;
+        width: 360px;
+        height: 104px;
+        top: 968px;
+        right: 5px; }
+      .maltrato__mobile .titulo-siocurrioen {
+        position: absolute;
+        width: 327px;
+        height: 24px;
+        left: 17px;
+        top: 1408px;
+        font-size: 24px;
+        line-height: 24px;
+        color: #D48187; }
+    .maltrato__mobile p {
+      position: absolute;
+      height: 168px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center; }
+    .maltrato__mobile .parrafo__1 {
+      right: 16px;
+      top: 208px; }
+    .maltrato__mobile .rectangle {
+      position: absolute;
+      width: 328px;
+      height: 528px;
+      left: 16px;
+      right: 16px;
+      top: 408px;
+      background: #FFE1E1;
+      border-radius: 30px; }
+      .maltrato__mobile .rectangle p {
+        position: absolute;
+        width: 280px;
+        height: 52px;
+        font-size: 16px;
+        line-height: 24px; }
+      .maltrato__mobile .rectangle .rectangle__1 {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 154px;
+        top: 23px; }
+      .maltrato__mobile .rectangle .delito-1 {
+        left: 27px;
+        top: 90px; }
+      .maltrato__mobile .rectangle .rectangle__2 {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 154px;
+        top: 172px; }
+      .maltrato__mobile .rectangle .delito-2 {
+        top: 235px;
+        left: 33px; }
+      .maltrato__mobile .rectangle .rectangle__3 {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 154px;
+        top: 373px; }
+      .maltrato__mobile .rectangle .delito-3 {
+        top: 438px;
+        left: 33px; }
+    .maltrato__mobile .perrito__img {
+      position: absolute;
+      width: 328px;
+      height: 304.26px;
+      left: 9px;
+      top: 1088px; }
+    .maltrato__mobile .parrafo__ubicacion {
+      position: absolute;
+      width: 328px;
+      height: 96px;
+      left: 16px;
+      top: 1440px;
+      text-align: start;
+      font-size: 16px;
+      line-height: 24px; }
+    .maltrato__mobile .puntitos {
+      position: absolute;
+      width: 327px;
+      height: 0px;
+      left: 17px;
+      top: 1552px;
+      border: 4px dotted #D48187;
+      border-top: 0; }
+    .maltrato__mobile .parrafo__ubicacion__info {
+      position: absolute;
+      width: 326px;
+      height: 248px;
+      left: 16px;
+      top: 1568px;
+      text-align: start;
+      font-size: 16px;
+      line-height: 24px; }
+    .maltrato__mobile .rectangle__bottom {
+      position: absolute;
+      width: 329px;
+      height: 272px;
+      left: 16px;
+      top: 1840px;
+      background: #272E41; }
+      .maltrato__mobile .rectangle__bottom p {
+        position: absolute;
+        width: 296px;
+        height: 208px;
+        top: 32px;
+        left: 16px;
+        text-align: start;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        color: #FFFFFF; }
+  /* END Maltrato */
   /* END CASTRAR */
   /* FOOTER */
   .footercast {
@@ -1849,24 +1990,21 @@ body {
     top: 3190px;
     background: #262626;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
-    .footercast .footer__layout {
-      width: 327px;
-      height: 32px; }
-      .footercast .footer__layout .footer_logo {
-        position: absolute;
-        width: 54px;
-        top: 15px;
-        left: 16px; }
-      .footercast .footer__layout .footer_texto {
+    .footercast .footer_logo {
+      position: absolute;
+      width: 45px;
+      top: -4px;
+      left: 16px; }
+    .footercast .footer_texto {
+      display: none; }
+    .footercast .footer_redes_img {
+      position: absolute;
+      left: 316px;
+      top: 7px; }
+      .footercast .footer_redes_img .mail {
         display: none; }
-      .footercast .footer__layout .footer_redes_img {
-        position: absolute;
-        left: 376px;
-        top: 13px; }
-        .footercast .footer__layout .footer_redes_img .mail {
-          display: none; }
-        .footercast .footer__layout .footer_redes_img .fb {
-          display: none; }
+      .footercast .footer_redes_img .fb {
+        display: none; }
   .footerresc {
     position: absolute;
     width: 100%;
@@ -1902,27 +2040,45 @@ body {
     left: 0px;
     background: #262626;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
-    .footervacc .footer__layout {
-      width: 327px;
-      height: 32px;
-      left: 20px;
-      top: 20px; }
-      .footervacc .footer__layout .footer_logo {
-        position: absolute;
-        width: 54px;
-        top: -24px; }
-      .footervacc .footer__layout .footer_texto {
+    .footervacc .footer_logo {
+      position: absolute;
+      width: 45px;
+      top: -4px;
+      left: 16px; }
+    .footervacc .footer_texto {
+      display: none; }
+    .footervacc .footer_redes_img {
+      position: absolute;
+      top: 7px;
+      left: 316px; }
+      .footervacc .footer_redes_img .mail {
         display: none; }
-      .footervacc .footer__layout .footer_redes_img {
-        position: absolute;
-        left: 369px; }
-        .footervacc .footer__layout .footer_redes_img .mail {
-          display: none; }
-        .footervacc .footer__layout .footer_redes_img .fb {
-          display: none; }
-  /* END FOOTER */
-  #myBtn {
-    margin: 30px; } }
+      .footervacc .footer_redes_img .fb {
+        display: none; }
+  .footer__maltrato {
+    padding: 16px;
+    gap: 10px;
+    position: absolute;
+    width: 360px;
+    height: 64px;
+    left: 0px;
+    top: 2160px;
+    background: #262626;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+    .footer__maltrato .footer_logo {
+      position: absolute;
+      width: 45px;
+      top: 25px; }
+    .footer__maltrato .footer_texto {
+      display: none; }
+    .footer__maltrato .footer_redes_img {
+      position: absolute;
+      left: 305px; }
+      .footer__maltrato .footer_redes_img .mail {
+        display: none; }
+      .footer__maltrato .footer_redes_img .fb {
+        display: none; }
+  /* END FOOTER */ }
 
 @media screen and (min-width: 1388px) {
   /* VACUNAS SECTION */
