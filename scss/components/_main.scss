@@ -5,16 +5,19 @@ $color2: #FFE1E1;
 $color3: #FFFDE9;
 $color4: #A17A9B;
 $color5: #262626;
+$color6: #FFFDE9;
+$color7: #FDE8D080;
 
 // banner
 
 .banner {
-    background-image: url("../multimedia/img/banner/banner.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 776px;
-    width: 100%;
 
+    background-image: url("../../img/banner/Carrousel.png");
+    height: 777px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,6 +48,7 @@ $color5: #262626;
 .nosotros {
   background-color: white;
   height: 850px;
+  
   width: 100%;
 
   display: grid;
@@ -58,6 +62,7 @@ $color5: #262626;
   }
 &-texto{
     margin-left: 10%;
+    
     border: solid 3px white;
     background-color: white;
     border-radius: 10px;
@@ -68,17 +73,18 @@ $color5: #262626;
       color: $color4;
       font-family: Poppins;
       font-size: 64px;
+      
       font-weight: 800;
-      line-height: 44px;
+      line-height: 64px;
       letter-spacing: 0em;
       text-align: left;
-
+      width: 65%;
       
   }
 
   & p{
-    width: 332px;
-    height: 454px;
+    width: 65%;
+    height: 100%;
 
     font-weight: 400;
     font-size: 20px;
@@ -91,13 +97,13 @@ $color5: #262626;
 
 
 
-
 // ig feed
 
 .igfeed {
   background-color: $color1;
   height: 952px;
   width: 100%;
+  padding: 25px;
 }
 
 
@@ -105,11 +111,16 @@ $color5: #262626;
 
 .adoptar {
 
+
+  
+
   background-color: $color2;
   height: 880px;
   width: 100%;
   top: 2688px;
   .razones__para__adoptar{
+    
+
     h3{
       color: $color4;
       font-size: nth($fuentes, 8);
@@ -231,7 +242,7 @@ $color5: #262626;
 &-botones{
   // background-color: red;
   display: flex;
-  width: 455px;
+  width: 70%;
   &-btn1{
     height: 40px;
     width: 100%;
@@ -375,10 +386,11 @@ $color5: #262626;
 .section__equipo {
 
   background-color: white;
+
   height: 720px;
   width: 100%;
+  padding-top: 6%;
   .texto__equipo{
-    margin-top: 10%;
     h2{
       color: #A17A9B;
       height: 72px;
@@ -457,7 +469,7 @@ $color5: #262626;
         
       }
       .css-button-shadow-border {
-        width: 268px;
+        width: 100%;
         height: 40px;
         color: #fff;
         padding: 5px 10px;
@@ -472,6 +484,7 @@ $color5: #262626;
         margin: 1%;
         box-shadow: -3px 3px 4px #00000020;
         background: #A17A9B;
+        margin-bottom: 10%;
         &:active {
           top: 1.5px;
         }
@@ -542,7 +555,7 @@ $color5: #262626;
 
 &-botones{
   display: flex;
-  width: 455px;
+  width: 70%;
 }
  
 &-imagen{
@@ -578,72 +591,31 @@ $color5: #262626;
 }
 
 
-// MOBILE - tienda
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-
-  .tienda {
-    grid-template-columns: 1fr;
-    display: flex;
-    flex-direction: column-reverse;
-    // background-color: red;
-  
-    &-texto{
-      margin-left: 0px;
-      margin: 5%;
-  
-      text-align: center;
-        & h2{
-
-        text-align: center;
- 
-        
-    }
-  
-    & p{
-       color: $color5;
-      font-family: Poppins;
-      font-size: 20px;
-      font-weight: 400;
-      line-height: 24px;
-      text-align: justify;
-       margin-right: 0px;
-   }
-  }
-
-  &-botones{
-    width: 100%;
-    display: flex;
-    
-  }
-   
-
-
-  &-imagen{
-    width: 330px;
-    height: 100%;
-   padding-bottom: 15%; 
-  }
-
-  }
-  
-}
-
-
 
 // MOBILE - sumate al equipo
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 
 .section__equipo {
-  height: 2510px;
+  height: 100%;
   .texto__equipo{
  
     h2{
-      height: 20px;
       font-size: 32px;
+      padding: 10%;
+      margin-bottom: 20%;
+    }
+    p{
+      
+      padding:  1% 5%;
     }
  
   }
   .section__cards{
+
+ 
+
+
+
     grid-template-columns: 1fr;
     .card_container{
       .card-title{
@@ -668,3 +640,58 @@ $color5: #262626;
 }
 
 }
+
+
+
+
+
+// MOBILE - tienda
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+  .tienda {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column-reverse;
+    // background-color: red;
+  
+    &-texto{
+      margin-left: 0px;
+      margin: 5%;
+  
+      text-align: center;
+        & h2{
+          font-size: 32px;
+        text-align: center;
+ 
+        
+    }
+  
+    & p{
+      color: $color5;
+      font-family: Poppins;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      margin-right: 0px;
+      font-size: 16px;
+   }
+  }
+
+  &-botones{
+    width: 100%;
+    display: flex;
+    
+  }
+   
+
+
+  &-imagen{
+    width: 330px;
+    height: 100%;
+   padding-bottom: 15%; 
+  }
+
+  }
+  
+}
+

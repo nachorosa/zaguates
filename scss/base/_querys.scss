@@ -122,13 +122,17 @@
                 top: 668px;
                 border: 0;
                 border-radius: 0;
-                margin-left: 5%;
+                margin: 5%;
+                
                 h2{
-                    margin-top: 15%;
+                    width: 100%;
+                    padding-top: 15%;
                     text-align: center;
+                    font-size: 32px;
                 }
                 p{ 
-                    text-align: start;
+                    text-align: center;
+                    width: 100%;
                 }
             }
             .nosotros-imagen{
@@ -138,14 +142,90 @@
         }
     /* About us END */
     /* Adoptá */
-    .adoptar{
-        .razones__para__adoptar{
+
+    .adoptar {
+
+        &-antes{
             display: none;
-        }
+          }
         
-    }
+        &-mobile-img{
+            width: 328px;
+            height: 328px;
+            margin-top: 5%;
+        }
+
+        background-color: $color2;
+        height: 608px;
+        width: 100%;
+        
+
+        .razones__para__adoptar{
+          h3{
+            padding-top: 10%;
+            color: $color4;
+            font-weight: 800;
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 36px;
+            margin: 0px 10%;
+          }
+          .involucrate{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            margin: 5% 25%;
+            
+          }
+        }
+
+        
+        .nosotros-imagen{
+          display: none;
+        }
+        .adoptar-texto{
+          display: none;
+        }
+      &-texto{
+          
+          margin-left: 10%;
+          margin-right: 10%;
+          border: solid 3px white;
+          background-color: white;
+          border-radius: 10px;
+          padding: 5%;
+          text-align: left;
+          height: 450px;
+      
+          & h2{
+            color: $color4;
+            font-family: Poppins;
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 44px;
+            letter-spacing: 0em;
+            text-align: left;
+      
+            
+        }
+      
+        & p{
+          color: $color5;
+          font-family: Poppins;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          
+      
+          
+      }
+      }
+      }
     /*END Adoptar */
     .donar{
+        background-color: $color6;
         display: flex;
         flex-direction: column-reverse;
         height: fit-content;
@@ -159,7 +239,7 @@
                 h2{
                     width: 505px;
                     height: 64px;
-                    padding-bottom: 30px;
+                    padding: 10%;
 
                     font-weight: 800;
                     font-size: 32px;
@@ -255,31 +335,24 @@
     }
     .transferencia__mobile{
         display: block;
-        width: 458px;
+        width: 100%;
         height: 501px;
+        
 
-        background: rgba(253, 232, 208, 0.5);
+        background-color: rgba(253, 232, 208, 0.5);
+        
         .parrafos{
-            padding-left: 51px;
-            padding-top: 40px;
+            padding: 10%;
+            
         
             .parrafo__1{
-                width: 233px;
-                height: 88px;
                 font-size: 16px;
                 line-height: 20px;
-                padding-left: 19px;
                 text-align: center;
             }
             .parrafo__2{
-                width: 328px;
-                height: 93px;
-
                 font-size: 16px;
                 line-height: 25px;
-
-                padding-right: 71px;
-
                 text-align: center;
                 span{
                     font-weight: 700;
@@ -287,19 +360,16 @@
                 }
             }
             .parrafo__3{
-                width: 250px;
-                height: 134px;
-
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 20px;
-
                 text-align: center;
+                padding: 5%;
             }
             .boton{
                 position: absolute;
-                top: 4639px;
-                left: 11px;
+                width: 40%;
+          
                 .css-button-shadow-border {
                     width: 328px;
                     height: 39.99px;
@@ -311,7 +381,7 @@
                     outline: none;
                     border-radius: 8px;
                     border: none;
-                    margin: 1%;
+                    
                     box-shadow: -3px 3px 4px #00000020;
                     background: #5DC3C1;
                     line-height: 40px;
@@ -329,25 +399,26 @@
             
         }
     }
-    /* Sumate al equipo section */
-    .section__equipo{
-        .texto__equipo{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            p{
-                margin: 10%;
-            }
-        }
-        .section__cards{
-            .card_container{
-                .css-button-shadow-border {
-                    width: 100%;
-                    }
-            }
-        }
+    // /* Sumate al equipo section */
+    // .section__equipo{
+    //     background-color: red;
+    //     .texto__equipo{
+    //         display: flex;
+    //         flex-direction: column;
+    //         align-items: center;
+    //         p{
+    //             margin: 10%;
+    //         }
+    //     }
+    //     .section__cards{
+    //         .card_container{
+    //             .css-button-shadow-border {
+    //                 width: 100%;
+    //                 }
+    //         }
+    //     }
         
-    }
+    // }
 
     /* Info util */
     /* RESCATAR SECTION */
@@ -492,7 +563,7 @@
     .vacunas__container{
         width: 100%;
         .vacunas__title{
-            width: 328px;
+            // width: 328px;
             height: 32px;
             left: 103px;
             top: 134px;

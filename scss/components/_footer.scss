@@ -7,6 +7,9 @@
     background-color: #262626;
     color: white;
  
+
+
+
         .footer_texto{
             font-family: Inter;
             font-size: 12px;
@@ -38,4 +41,45 @@
 
 
 
+
+// MOBILE - footer
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .footer {
+      height: 64 !important;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #262626;
+      color: white;
+   
+      .footer_logo{
+        width: 50px;
+    }
+
+          .footer_texto{
+            display: none;
+          }
+          .footer_redes_img {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+              justify-content: center;
+              align-items: center;
+              align-content: center;
+              .iconoFooter {
+                  margin: 8px;
+                &-mobile{
+                    display: none;
+                }
+                }
+
+            }
+    }
+    
+  
+  
+  
+    
+  }
+  
 
