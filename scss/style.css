@@ -1403,6 +1403,7 @@ body {
         .transferencia__mobile .parrafos .boton .css-button-shadow-border {
           width: 328px;
           height: 39.99px;
+          left: -16px;
           color: #fff;
           cursor: pointer;
           transition: all 0.3s ease;
@@ -2236,7 +2237,7 @@ body {
     padding: 16px;
     gap: 10px;
     position: absolute;
-    width: 360px;
+    width: 100%;
     height: 64px;
     left: 0px;
     top: 2160px;
