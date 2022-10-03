@@ -101,26 +101,104 @@ $color7: #FDE8D080;
 
 .igfeed {
   background-color: $color1;
-  height: 952px;
+  height: 1220px;
   width: 100%;
   padding: 25px;
+  .igposition__mobile{
+    position: absolute;
+    width: 1315px;
+    top: 2002px;
+    left: 28px;
+  }
+  h2{
+    position: absolute;
+    width: 1200px;
+    height: 136px;
+    top: 1772px;
+    left: 89px;
+
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 68px;
+    text-align: center;
+
+    color: #A17A9B;
+  }
+  .parrafo__1{
+    position: absolute;
+    width: 667.24px;
+    height: 56px;
+    top: 1931px;
+    left: 348px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .css-button-shadow-border {
+    width: 368px;
+    height: 40px;
+    top: 1114px;
+    left: 466px;
+
+    color: #FFFFFF;
+    padding: 5px 10px;
+    line-height: 200%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    margin: 1%;
+    box-shadow: -3px 3px 4px #00000020;
+    background: #A17A9B;
+    user-select: none;
+    font-size: 14px;
+    font-weight: 600;
+    
+    a{
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+    p{
+      position: absolute;
+      width: 316px;
+      top: 9px;
+      left: 40px;
+    }
+    &:hover {
+      
+      mix-blend-mode: normal;
+      filter: drop-shadow(-3px 3px 4px rgba(0, 0, 0, 0.2));
+    }
+    &:active {
+      background-color: #7e5e78;
+      top: 1115.1px;
+    }
+    &:visited{
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+    .iglogoboton{
+      position: absolute;
+      width: 51px;
+      left: 27px;
+      top: -3px;
+    }
+  }
 }
 
 
 // adoptar
 
 .adoptar {
-
-
-  
-
   background-color: $color2;
   height: 880px;
   width: 100%;
   top: 2688px;
   .razones__para__adoptar{
-    
-
     h3{
       color: $color4;
       font-size: nth($fuentes, 8);
@@ -142,7 +220,9 @@ $color7: #FDE8D080;
   grid-template-rows: 1fr ;
   grid-template-columns: 1fr 1fr;
   align-items:center; */
-  
+  .adoptar-mobile-img{
+    display: none;
+  }
   .nosotros-imagen{
     display: none;
   }
@@ -414,6 +494,9 @@ $color7: #FDE8D080;
     margin: 0 auto;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
+    .text__mobile{
+      display: none;
+    }
     .card_container{
       .card{
         position: relative;

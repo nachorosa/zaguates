@@ -141,6 +141,55 @@
             
         }
     /* About us END */
+    /* IG FEED MOBILE */
+    .igfeed{
+        height: 909px;
+        h2{
+            position: absolute;
+            width: 361px;
+            top: 1518px;
+            left: -1px;
+            font-size: 32px;
+
+            line-height: 36px;
+        }
+        .parrafo__1{  
+            position: absolute;
+            width: 341.24px;
+            height: 56px;
+            top: 1652px;
+            left: 9px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+        }
+        .igposition__mobile{
+            width: 314px;
+            top: 1752px;
+            left: 23px;
+        }
+        .css-button-shadow-border {
+            width: 315px;
+            top: 774px;
+            left: 0px;
+            &:active {
+              top: 775.5px;
+            }
+            .iglogoboton{
+                width: 39px;
+                top: 2px;
+                left: 42px;
+            }
+            p{
+                position: absolute;
+                width: 282px;
+                top: 6px;
+                left: 36px;
+            }
+          }
+    }
+    /* END IG FEED MOBILE */
     /* Adoptá */
 
     .adoptar {
@@ -179,7 +228,13 @@
           }
         }
 
-        
+        .adoptar-mobile-img{
+            display: block;
+
+        }
+        .sacar-mobile{
+            display: none;
+        }
         .nosotros-imagen{
           display: none;
         }
@@ -419,7 +474,13 @@
     //     }
         
     // }
-
+        .section__equipo{
+            .section__cards{
+                .text__mobile{
+                    display: block;
+                }
+            }
+        }
     /* Info util */
     /* RESCATAR SECTION */
     .rescatar__container{
