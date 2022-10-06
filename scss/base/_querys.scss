@@ -143,22 +143,22 @@
     /* About us END */
     /* IG FEED MOBILE */
     .igfeed{
-        height: 909px;
+        // height: 909px;
         h2{
-            position: absolute;
-            width: 361px;
-            top: 1518px;
-            left: -1px;
+            // position: absolute;
+            // width: 361px;
+            // top: 1518px;
+            // left: -1px;
             font-size: 32px;
 
             line-height: 36px;
         }
         .parrafo__1{  
-            position: absolute;
-            width: 341.24px;
-            height: 56px;
-            top: 1652px;
-            left: 9px;
+            // position: absolute;
+            // width: 341.24px;
+            // height: 56px;
+            // top: 1652px;
+            // left: 9px;
             font-weight: 400;
             font-size: 16px;
             line-height: 20px;
@@ -426,6 +426,7 @@
                 width: 40%;
           
                 .css-button-shadow-border {
+                    margin-left: 20px;
                     width: 328px;
                     height: 39.99px;
                     left: -16px;
