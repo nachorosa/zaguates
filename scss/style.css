@@ -1381,7 +1381,7 @@ body {
   /* About us section */
   .nosotros {
     display: block;
-    /* background: url("../multimedia/img/nosotros/donacionesMobile.png"); */
+    background: url("../multimedia/img/nosotros/donacionesMobile.png");
     background-size: contain;
     height: 850px;
     width: 100%;
