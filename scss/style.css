@@ -789,7 +789,6 @@ body {
 }
 .rescatar__container .img__container .rescatar__img {
   width: 90%;
-  height: 816px;
   margin-top: 56px;
   margin-left: 10%;
   margin-bottom: 64px;
@@ -2063,10 +2062,10 @@ body {
   }
   .castraciones__container__mobile .rectangulo .parrafo__rectangulo {
     position: absolute;
-    width: 296px;
+    width: 80%;
     height: 192px;
-    left: 30px;
-    top: 18px;
+    left: 10%;
+    top: 20px;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
