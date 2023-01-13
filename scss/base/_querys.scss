@@ -108,7 +108,7 @@
     /* About us section */
         .nosotros{
                 display: block;
-                background: url('../multimedia/img/nosotros/donacionesMobile.png');
+                // background: url('../multimedia/img/nosotros/donacionesMobile.png');
                 background-size: contain;
                 height: 850px;
                 width: 100%;
@@ -1290,18 +1290,21 @@
             top: 104px;
             &-comodenunciar{
                 position: absolute;
-                width: 360px;
-                height: 104px;
-                top: 968px;
-                right: 5px;
-                
+                // width: 360px;
+                // height: 104px;
+                // top: 968px;
+                // right: 5px;
+                width: 80%;
+                height: 86px;
+                top: 970px;
+                left: 10%;   
             }
             &-siocurrioen{
                 position: absolute;
                 width: 327px;
                 height: 24px;
-                left: 17px;
-                top: 1408px;
+                left: 10%;
+                top: 1438px;
 
                 font-size: 24px;
                 line-height: 24px;
@@ -1325,11 +1328,11 @@
         }
         .rectangle{
             position: absolute;
-            width: 328px;
+            width: 80%;
             height: 528px;
-            left: 16px;
+            left: 10%;
             right: 16px;
-            top: 408px;
+            top: 380px;
         
             background: #FFE1E1;
             border-radius: 30px;
@@ -1379,15 +1382,15 @@
             position: absolute;
             width: 328px;
             height: 304.26px;
-            left: 9px;
-            top: 1088px;
+            left: 10%;
+            top: 1120px;
         }
         .parrafo__ubicacion{
                 position: absolute;
                 width: 328px;
                 height: 96px;
-                left: 16px;
-                top: 1440px;
+                left: 10%;
+                top: 1470px;
 
                 text-align: start;
                 font-size: 16px;
@@ -1397,18 +1400,18 @@
             position: absolute;
             width: 327px;
             height: 0px;
-            left: 17px;
-            top: 1552px;
+            left: 10%;
+            top: 1580px;
             
             border: 4px dotted #D48187;
             border-top: 0;
         }
         .parrafo__ubicacion__info{
             position: absolute;
-            width: 326px;
+            width: 80%;
             height: 248px;
-            left: 16px;
-            top: 1568px;
+            left: 10%;
+            top: 1600px;
 
             text-align: start;
             font-size: 16px;
@@ -1416,9 +1419,9 @@
         }
         .rectangle__bottom{
             position: absolute;
-            width: 329px;
+            width: 80%;
             height: 272px;
-            left: 16px;
+            left: 10%;
             top: 1840px;
 
             background: #272E41;
