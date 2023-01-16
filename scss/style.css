@@ -788,9 +788,9 @@ body {
   display: none;
 }
 .rescatar__container .img__container .rescatar__img {
-  width: 90%;
+  width: 70%;
   margin-top: 56px;
-  margin-left: 10%;
+  margin-left: 15%;
   margin-bottom: 64px;
 }
 
@@ -1682,7 +1682,7 @@ body {
     position: absolute;
     width: 328px;
     height: 0px;
-    left: 16px;
+    left: 10%;
     top: 802px;
     border-top: 3px dotted #A17A9B;
   }
@@ -1690,7 +1690,7 @@ body {
     position: absolute;
     width: 328px;
     height: 104px;
-    left: 16px;
+    left: 10%;
     top: 40px;
     font-size: 32px;
     line-height: 48px;
@@ -1699,7 +1699,7 @@ body {
     position: absolute;
     width: 328px;
     height: 344px;
-    left: 16px;
+    left: 10%;
     top: 216px;
     background: url("../multimedia/img/infoUtil/rescatarImgMobile.png");
   }
@@ -1713,14 +1713,14 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 16px;
+    left: 5%;
     top: 608px;
   }
   .rescatar__container .mobile__textos .parrafo {
     position: absolute;
-    width: 296px;
+    width: 75%;
     height: 176px;
-    left: 48px;
+    left: 15%;
     top: 608px;
     font-weight: 400;
     font-size: 16px;
@@ -1728,9 +1728,9 @@ body {
   }
   .rescatar__container .mobile__textos .texto__2 .parrafo2 {
     position: absolute;
-    width: 296px;
+    width: 75%;
     height: 176px;
-    left: 48px;
+    left: 15%;
     top: 817px;
     font-weight: 400;
     font-size: 16px;
@@ -1740,22 +1740,22 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 16px;
+    left: 5%;
     top: 817px;
   }
   .rescatar__container .mobile__textos .dotted2 {
     position: absolute;
     width: 328px;
     height: 0px;
-    left: 16px;
+    left: 10%;
     top: 976px;
     border-top: 3px dotted #A17A9B;
   }
   .rescatar__container .mobile__textos .texto__3 .parrafo3 {
     position: absolute;
-    width: 296px;
+    width: 75%;
     height: 200px;
-    left: 48px;
+    left: 15%;
     top: 992px;
     font-family: "Poppins";
     font-style: normal;
@@ -1767,22 +1767,22 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 16px;
+    left: 5%;
     top: 992px;
   }
   .rescatar__container .mobile__textos .dotted3 {
     position: absolute;
     width: 328px;
     height: 0px;
-    left: 16px;
+    left: 10%;
     top: 1208px;
     border-top: 4px dotted #A17A9B;
   }
   .rescatar__container .mobile__textos .texto__4 .parrafo4 {
     position: absolute;
-    width: 296px;
+    width: 75%;
     height: 144px;
-    left: 48px;
+    left: 15%;
     top: 1224px;
     font-weight: 400;
     font-size: 16px;
@@ -1792,7 +1792,7 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 16px;
+    left: 5%;
     top: 1224px;
   }
   /* END RESCATAR SECTION */
@@ -1802,7 +1802,7 @@ body {
   }
   .vacunas__container .vacunas__title {
     height: 32px;
-    left: 103px;
+    left: 30%;
     top: 134px;
     font-size: 32px;
     line-height: 68px;
@@ -1810,16 +1810,15 @@ body {
   .vacunas__container .margin__col__1 .col__1__parrafo {
     width: 323px;
     height: 288px;
-    left: 16px;
+    left: 10%;
     top: 186px;
     text-align: center;
-    line-height: 24px;
   }
   .vacunas__container .margin__col__2 .rectangulo {
     width: 328px;
     height: 352px;
-    left: 16px;
-    top: 672px;
+    left: 10%;
+    top: 780px;
   }
   .vacunas__container .margin__col__2 .rectangulo .rectangulo__img {
     width: 298px;
@@ -1840,8 +1839,8 @@ body {
   .vacunas__container .margin__col__3 {
     width: 328px;
     height: 400px;
-    left: 14px;
-    top: 1038px;
+    left: 10%;
+    top: 1160px;
   }
   .vacunas__container .margin__col__3 .rectangulo2 .dog {
     width: 64px;
@@ -1906,8 +1905,8 @@ body {
   .vacunas__container .margin__col__4 {
     width: 328px;
     height: 288px;
-    left: 14px;
-    top: 1459px;
+    left: 10%;
+    top: 1590px;
   }
   .vacunas__container .margin__col__4 .rectangulo3 .rectangulo3cat {
     width: 64px;
@@ -1962,7 +1961,7 @@ body {
     position: absolute;
     width: 327px;
     height: 96px;
-    left: 16px;
+    left: 10%;
     top: 104px;
     font-family: "Poppins";
     font-style: normal;
@@ -1976,14 +1975,14 @@ body {
     position: absolute;
     width: 328px;
     height: 328px;
-    left: 16px;
+    left: 10%;
     top: 208px;
   }
   .castraciones__container__mobile .mitos {
     position: absolute;
     width: 328px;
     height: 72px;
-    left: 16px;
+    left: 10%;
     top: 568px;
     font-weight: 900;
     font-size: 24px;
@@ -1996,14 +1995,14 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 16px;
+    left: 10%;
     top: 664px;
   }
   .castraciones__container__mobile .parraf__mitos__1 {
     position: absolute;
     width: 296px;
     height: 48px;
-    left: 48px;
+    left: 20%;
     top: 656px;
     font-weight: 400;
     font-size: 16px;
@@ -2015,14 +2014,14 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 16px;
+    left: 10%;
     top: 728px;
   }
   .castraciones__container__mobile .parraf__mitos__2 {
     position: absolute;
     width: 296px;
     height: 48px;
-    left: 48px;
+    left: 20%;
     top: 720px;
     font-weight: 400;
     font-size: 16px;
@@ -2034,14 +2033,14 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 16px;
+    left: 10%;
     top: 792px;
   }
   .castraciones__container__mobile .parraf__mitos__3 {
     position: absolute;
     width: 296px;
     height: 48px;
-    left: 48px;
+    left: 20%;
     top: 784px;
     font-weight: 400;
     font-size: 16px;
@@ -2053,7 +2052,7 @@ body {
     position: absolute;
     width: 328px;
     height: 248px;
-    left: 16px;
+    left: 10%;
     top: 872px;
     background: #A17A9B;
     border-radius: 30px;
@@ -2074,7 +2073,7 @@ body {
     position: absolute;
     width: 327px;
     height: 64px;
-    left: 17px;
+    left: 10%;
     top: 1152px;
     font-weight: 900;
     font-size: 24px;
@@ -2088,7 +2087,7 @@ body {
     position: absolute;
     width: 328px;
     height: 32px;
-    left: 16px;
+    left: 10%;
     top: 1232px;
     font-weight: 700;
     font-size: 24px;
@@ -2101,14 +2100,14 @@ body {
     position: absolute;
     width: 24px;
     height: 27px;
-    left: 16px;
+    left: 10%;
     top: 1280px;
   }
   .castraciones__container__mobile .parraf__machos1 {
     position: absolute;
     width: 288px;
     height: 607px;
-    left: 56px;
+    left: 20%;
     top: 1281px;
     font-weight: 400;
     font-size: 16px;
@@ -2118,14 +2117,14 @@ body {
     position: absolute;
     width: 24px;
     height: 27px;
-    left: 16px;
+    left: 10%;
     top: 1384px;
   }
   .castraciones__container__mobile .parraf__machos2 {
     position: absolute;
     width: 288px;
     height: 607px;
-    left: 56px;
+    left: 20%;
     top: 1385px;
     font-weight: 400;
     font-size: 16px;
@@ -2135,14 +2134,14 @@ body {
     position: absolute;
     width: 24px;
     height: 27px;
-    left: 16px;
+    left: 10%;
     top: 1480px;
   }
   .castraciones__container__mobile .parraf__machos3 {
     position: absolute;
     width: 288px;
     height: 607px;
-    left: 56px;
+    left: 20%;
     top: 1481px;
     font-weight: 400;
     font-size: 16px;
@@ -2152,14 +2151,14 @@ body {
     position: absolute;
     width: 24px;
     height: 27px;
-    left: 16px;
+    left: 10%;
     top: 1576px;
   }
   .castraciones__container__mobile .parraf__machos4 {
     position: absolute;
     width: 288px;
     height: 607px;
-    left: 56px;
+    left: 20%;
     top: 1577px;
     font-weight: 400;
     font-size: 16px;
@@ -2169,14 +2168,14 @@ body {
     position: absolute;
     width: 24px;
     height: 27px;
-    left: 16px;
+    left: 10%;
     top: 1624px;
   }
   .castraciones__container__mobile .parraf__machos5 {
     position: absolute;
     width: 288px;
     height: 607px;
-    left: 56px;
+    left: 20%;
     top: 1625px;
     font-weight: 400;
     font-size: 16px;
@@ -2186,14 +2185,14 @@ body {
     position: absolute;
     width: 24px;
     height: 27px;
-    left: 16px;
+    left: 10%;
     top: 1696px;
   }
   .castraciones__container__mobile .parraf__machos6 {
     position: absolute;
     width: 288px;
     height: 607px;
-    left: 56px;
+    left: 20%;
     top: 1697px;
     font-weight: 400;
     font-size: 16px;
@@ -2203,14 +2202,14 @@ body {
     position: absolute;
     width: 24px;
     height: 27px;
-    left: 16px;
+    left: 10%;
     top: 1816px;
   }
   .castraciones__container__mobile .parraf__machos7 {
     position: absolute;
     width: 288px;
     height: 607px;
-    left: 56px;
+    left: 20%;
     top: 1817px;
     font-family: "Poppins";
     font-style: normal;
@@ -2222,7 +2221,7 @@ body {
     position: absolute;
     width: 328px;
     height: 32px;
-    left: 16px;
+    left: 10%;
     top: 1912px;
     font-weight: 700;
     font-size: 24px;
@@ -2235,14 +2234,14 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 16px;
+    left: 10%;
     top: 1960px;
   }
   .castraciones__container__mobile .parraf__hembras1 {
     position: absolute;
     width: 296px;
     height: 464px;
-    left: 48px;
+    left: 20%;
     top: 1961px;
     font-weight: 400;
     font-size: 16px;
@@ -2252,14 +2251,14 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 16px;
+    left: 10%;
     top: 2056px;
   }
   .castraciones__container__mobile .parraf__hembras2 {
     position: absolute;
     width: 296px;
     height: 464px;
-    left: 48px;
+    left: 20%;
     top: 2057px;
     font-weight: 400;
     font-size: 16px;
@@ -2269,14 +2268,14 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 16px;
+    left: 10%;
     top: 2152px;
   }
   .castraciones__container__mobile .parraf__hembras3 {
     position: absolute;
     width: 296px;
     height: 464px;
-    left: 48px;
+    left: 20%;
     top: 2153px;
     font-weight: 400;
     font-size: 16px;
@@ -2286,14 +2285,14 @@ body {
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 16px;
+    left: 10%;
     top: 2232px;
   }
   .castraciones__container__mobile .parraf__hembras4 {
     position: absolute;
     width: 296px;
     height: 464px;
-    left: 48px;
+    left: 20%;
     top: 2233px;
     font-weight: 400;
     font-size: 16px;
@@ -2303,14 +2302,14 @@ body {
     position: absolute;
     width: 328px;
     height: 184px;
-    left: 16px;
+    left: 10%;
     top: 2448px;
   }
   .castraciones__container__mobile .titulo__ventajafamilia {
     position: absolute;
     width: 328px;
     height: 40px;
-    left: 16px;
+    left: 13%;
     top: 2664px;
     font-weight: 900;
     font-size: 24px;
@@ -2324,7 +2323,7 @@ body {
     position: absolute;
     width: 328px;
     height: 48px;
-    left: 17px;
+    left: 10%;
     top: 2712px;
     font-weight: 400;
     font-size: 16px;
@@ -2338,7 +2337,7 @@ body {
     position: absolute;
     width: 329px;
     height: 272px;
-    left: 16px;
+    left: 10%;
     top: 2840px;
   }
   .castraciones__container__mobile .cuando__hacerlo__container .cuandohacerlo {
@@ -2376,7 +2375,7 @@ body {
     color: #CE747A;
   }
   .maltrato__mobile .titulo {
-    left: 16px;
+    left: 10%;
     top: 104px;
   }
   .maltrato__mobile .titulo-comodenunciar {
